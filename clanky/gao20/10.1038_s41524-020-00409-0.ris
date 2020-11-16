@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Gao, Hao
+AU  - Wang, Junjie
+AU  - Guo, Zhaopeng
+AU  - Sun, Jian
+PY  - 2020
+DA  - 2020/09/23
+TI  - Determining dimensionalities and multiplicities of crystal nets
+JO  - npj Computational Materials
+SP  - 143
+VL  - 6
+IS  - 1
+AB  - Low-dimensional materials have attracted significant attention over the past decade. To discover new low-dimensional materials, high-throughput screening methods for structures with target dimensionality have been applied in different materials databases. For this purpose, the reliability of dimensionality identification is therefore highly important. In this work, we find that the existence of self-penetrating nets may lead to incorrect results by previous methods. Instead of this, we use the quotient graph to analyse the topologies of structures and compute their dimensionalities. Based on the quotient graph, we can calculate not only the dimensionality but also the multiplicity of self-penetrating structures. As a demonstration, we screened the Crystallography Open Database using the method and find hundreds of structures with different dimensionalities and high multiplicities up to 11. Some of the self-penetrating materials may have application values in gas storage, selective catalysis or photocatalysis because of their high gas sorption capacities and various electronic structures.
+SN  - 2057-3960
+UR  - https://doi.org/10.1038/s41524-020-00409-0
+DO  - 10.1038/s41524-020-00409-0
+ID  - Gao2020
+ER  - 
