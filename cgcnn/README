@@ -10,4 +10,4 @@ The CGCNN crystal graph construction can be found in https://github.com/aced-dif
 
 
 TODO: pymatgen to structure the data for Julia CGCNN
-TODO: orbital interaction implementation
+TODO: orbital interaction implementation (SotA_karamad20)
