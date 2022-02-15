@@ -1,0 +1,40 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {american}{}
+\babel@toc {american}{}
+\babel@toc {american}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introduction}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Methodology}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Regression Methods}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Ordinary Least Squares}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Ridge Regression}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Kernel Ridge Regression (KRR)}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}The Least Absolute Shrinkage and Selection Operator (LASSO)}{16}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Data Transformation Methods}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Feature Standardization}{21}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Feature Normalization}{21}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Model Validation Methods}{21}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Feature Engineering}{23}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Density Functional Theory Data}{23}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Material Descriptors}{23}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Classification Problem of Binary Compounds Experiment}{25}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Transparent Conductiong Oxides Experiment}{27}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Materials Project Experiment}{29}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{31}{}%

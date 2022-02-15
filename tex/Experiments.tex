@@ -1,0 +1,1078 @@
+%
+%
+\documentclass[11pt,american]{book} %czech,
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=4cm,bmargin=3cm,lmargin=3cm,rmargin=2cm,headheight=0.8cm,headsep=1cm,footskip=0.5cm}
+\pagestyle{headings}
+\setcounter{secnumdepth}{3}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{subfig}
+
+\usepackage[backend=bibtex,
+style=numeric,
+bibencoding=ascii,
+maxbibnames=99,
+%style=alphabetic
+%style=reading
+sorting=anyt
+]{biblatex}
+\addbibresource{zdroje.bib}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem} 
+\theoremstyle{definition}
+\newtheorem{defn}{Definition} 
+\newtheorem{rmrk}{Remark} 
+\newtheorem{coro}{Corollary}
+
+\DeclareMathOperator*{\argmin}{argmin} % no space, limits underneath in displays
+
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+		{\settowidth{\labelwidth}{#1}
+			\setlength{\leftmargin}{\labelwidth}
+			\addtolength{\leftmargin}{\labelsep}
+			\renewcommand{\makelabel}[1]{##1\hfil}}}
+	{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%% Font setup: please leave the LyX font settings all set to 'default'
+%% if you want to use any of these packages:
+
+%% Use Times New Roman font for text and Belleek font for math
+%% Please make sure that the 'esint' package is turned off in the
+%% 'Math options' page.
+\usepackage[varg]{txfonts}
+
+%% Use Utopia text with Fourier-GUTenberg math
+%\usepackage{fourier}
+
+%% Bitstream Charter text with Math Design math
+%\usepackage[charter]{mathdesign}
+
+%%---------------------------------------------------------------------
+
+%% Make the multiline figure/table captions indent so that the second
+%% line "hangs" right below the first one.
+%\usepackage[format=hang]{caption}
+
+%% Indent even the first paragraph in each section
+\usepackage{indentfirst}
+
+%%---------------------------------------------------------------------
+
+%% Disable page numbers in the TOC. LOF, LOT (TOC automatically
+%% adds \thispagestyle{chapter} if not overriden
+%\addtocontents{toc}{\protect\thispagestyle{empty}}
+%\addtocontents{lof}{\protect\thispagestyle{empty}}
+%\addtocontents{lot}{\protect\thispagestyle{empty}}
+
+%% Shifts the top line of the TOC (not the title) 1cm upwards 
+%% so that the whole TOC fits on 1 page. Additional page size
+%% adjustment is performed at the point where the TOC
+%% is inserted.
+%\addtocontents{toc}{\protect\vspace{-1cm}}
+
+%%---------------------------------------------------------------------
+
+% completely avoid orphans (first lines of a new paragraph on the bottom of a page)
+\clubpenalty=9500
+
+% completely avoid widows (last lines of paragraph on a new page)
+\widowpenalty=9500
+
+% disable hyphenation of acronyms
+\hyphenation{CDFA HARDI HiPPIES IKEM InterTrack MEGIDDO MIMD MPFA DICOM ASCLEPIOS MedInria}
+
+%%---------------------------------------------------------------------
+
+%% Print out all vectors in bold type instead of printing an arrow above them
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+
+% Replace standard \cite by the parenthetical variant \citep
+%\renewcommand{\cite}{\citep}
+
+\makeatother
+
+\usepackage{babel}
+
+
+
+
+
+\setcounter{tocdepth}{4}
+\usepackage{multirow}
+\usepackage{hhline}
+%\usepackage{epstopdf}
+\usepackage{tikz}
+\setcounter{MaxMatrixCols}{20}
+\usepackage{pdfpages}
+
+
+
+
+\begin{document}
+\def\documentdate{November 12, 2021}
+
+%%\def\documentdate{\today}
+
+\pagestyle{empty}
+{\centering
+	
+	\noindent %
+	\begin{minipage}[c]{3cm}%
+		\noindent \begin{center}
+			\includegraphics[width=3cm,height=3cm,keepaspectratio]{Images/TITLE/cvut}
+			\par\end{center}%
+	\end{minipage}%
+	\begin{minipage}[c]{0.6\linewidth}%
+		\begin{center}
+			\textsc{\large{}Czech Technical University in Prague}{\large{}}\\
+			{\large{}Faculty of Nuclear Sciences and Physical Engineering}
+			\par\end{center}%
+	\end{minipage}%
+	\begin{minipage}[c]{3cm}%
+		\noindent \begin{center}
+			\includegraphics[width=3cm,height=3cm,keepaspectratio]{Images/TITLE/fjfi}
+			\par\end{center}%
+	\end{minipage}
+	
+	\vspace{3cm}
+	
+	
+	\textbf{\huge{}Machine learning for prediction of energy in condensed matter physics}{\huge \par}
+	
+	\vspace{1cm}
+	
+	%\selectlanguage{czech}%
+	\textbf{\huge{}Aplikace strojového učení k predikci energií ve fyzice pevných látek}{\huge \par}
+	
+	\selectlanguage{american}%
+	\vspace{2cm}
+	
+	
+	{\large{}Diploma Thesis}{\large \par}
+	
+}
+
+\vfill{}
+
+\begin{lyxlist}{MMMMMMMMM}
+	\begin{singlespace}
+		\item [{Author:}] \textbf{Bc. Jiří Chmel}
+		\item [{Supervisor:}] \textbf{doc. RNDr. Jan Vybíral, Ph.D.}
+		%\item [{Consultant:}] \textbf{doc. RNDr. Jméno Konzultanta, CSc. }(pouze
+		%pokud konzultant byl jmenován.)
+	\end{singlespace}
+	
+	%\item [{Language~advisor:}] \textbf{Mgr. Jméno Učitelky Angličtiny}
+	\begin{singlespace}
+		\item [{Academic~year:}] 2021/2022\end{singlespace}
+	
+\end{lyxlist}
+\newpage{}
+
+~\newpage{}
+
+%~
+
+%\vfill{}
+
+\includepdf[pages=-,pagecommand={},width=\textwidth]{doc.pdf}
+%\begin{center}
+%	- Zadani prace -
+%	\par\end{center}
+%
+%\vfill{}
+%
+%
+%~\newpage{}
+%
+%~
+%
+%\vfill{}
+%
+%
+%\begin{center}
+%	- Zadani prace (zadni strana) -
+%	\par\end{center}
+%
+%\vfill{}
+%
+%
+%~\newpage{}
+
+\noindent \emph{\Large{}Acknowledgment:}{\Large \par}
+
+\noindent I would like to thank doc. RNDr. Jan Vybíral, Ph.D.
+for his guidance and patience during this uneasy academic year.
+
+\vfill
+
+\noindent \emph{\Large{}Author's declaration:}{\Large \par}
+
+\noindent I declare that this Research Project is entirely
+my own work and I have listed all the used sources in the bibliography.
+
+\bigskip{}
+
+
+\noindent Prague, \today \hfill{}Jiří Chmel
+%\documentdate
+\vspace{2cm}
+
+
+%\newpage{}
+
+%~\newpage{}
+
+\tableofcontents{}
+
+\chapter*{Introduction}
+
+\addcontentsline{toc}{chapter}{Introduction}
+
+something
+
+\chapter{Methodology}
+The following chapter captures the theoretical background of the machine learning used in this work starting with the simplest methods of ordinary least squares and gradually building towards neural networks. The notation and conventions which will be used throughout this work are defined as stated below.
+
+\begin{defn}[{The $\hat{N}$ notation}]
+	The set of natural numbers $\{1, 2, \dots, N\}$ is denoted as $\hat{N}$.
+\end{defn}
+
+\begin{defn}[Vector and Matrix Notation]
+	Vectors of real numbers $\bm{y} \in \mathbb{R}^N$, $N \in \mathbb{N}$ are denoted by
+	
+	\begin{equation}
+		\bm{y}=\begin{pmatrix}
+			y_1 \\
+			y_2 \\
+			\vdots \\
+			y_N
+			
+			
+		\end{pmatrix} = \begin{pmatrix}
+			y_1, y_2, \dots, y_N
+		\end{pmatrix}^T.
+	\end{equation}
+	Matrices of real numbers $\bm{X} \in \mathbb{R}^{N\times M}$, $M,N \in \mathbb{N}$ are denoted by
+	\begin{equation}
+		\bm{X}=\begin{pmatrix}
+			x_{11} & x_{12} & \dots & x_{1M}\\
+			x_{21} & x_{22} & \dots & x_{2M}\\
+			\vdots & \vdots & \ddots & \vdots\\
+			x_{N1} & \dots & \dots & x_{NM} \\
+			
+			
+		\end{pmatrix} = \begin{pmatrix}
+			\bm{x}_{\bullet 1}, \bm{x}_{\bullet 2}, \dots, \bm{x}_{\bullet M}
+		\end{pmatrix} = \begin{pmatrix}
+			\bm{x}_{1 \bullet}, \bm{x}_{2 \bullet}, \dots, \bm{x}_{N \bullet}
+		\end{pmatrix}^T,
+	\end{equation}
+	where $\bm{x}_{\bullet j} \in \mathbb{R}^{N}$ for $j \in \hat{M}$ are columns of $\bm{X}$ and $\bm{x}_{ i \bullet} \in \mathbb{R}^{M}$ for $i \in \hat{N}$ are rows of $\bm{X}$.
+	
+\end{defn}
+
+\begin{defn}[{$\ell_{p}$ norm}]
+	Let $\bm{{x}}= ({x}_{1},{x}_{2},\dots,{x}_{M})^{T} \in \mathbb{R}^{M}$.
+	\begin{enumerate}{
+			\item If $p \in [1, +\infty)$, then the $\ell_{p}$ norm of a vector $\bm{{x}} \in \mathbb{R}^M$ is 
+			\begin{equation}
+				\lVert \bm{x}\rVert_{p} = \Big(\sum_{j=1}^{M}|{x}_j|^{p}\Big)^{ \frac{1}{p}}
+				\label{lpnorm}.
+		\end{equation}}
+		
+		\item {The $\ell_{0}$ norm of a vector $\bm{{x}} \in \mathbb{R}^M$ is 
+			
+			\begin{equation}
+				\lVert \bm{x} \rVert_{0} = \#\{j:{x}_j\neq 0 \}, \label{l0norm}
+			\end{equation} which counts the number of non-zero components of $\bm{x}$.}
+	\end{enumerate}
+\end{defn}
+
+\begin{rmrk}
+	For $0<p<1$ the convexity is broken (the triangle inequality doesn't hold). Such function is then called quasinorm.
+\end{rmrk}
+
+\section{Regression Methods}
+The methods used in this work and their underlying theory is outlined in this section.
+\subsection{Ordinary Least Squares}
+Let us assume we have a real setting with data points $(\bm{x}_1,y_1), (\bm{x}_2,y_2),\dots, (\bm{x}_N,y_N)$, where $\bm{x}_i \in \mathbb{R}^{M}$ for $i \in \hat{N}$ and $y_{1}, y_{2},\dots, y_{N} \in \mathbb{R}$. Generally, we want to describe the dependence of the output $y_{i}$ on $\bm{x}_{i}$, in other words we want to model the relation $y_{i}=f({\bm{x}}_{i})$ for $i \in \hat{N}$.
+Here, we presume the model is linear in the coefficients: $f(\bm{x}_{i})= \langle\bm{x}_{i}, \bm{b}\rangle$, where $\bm{b}= (b_{1},b_{2},\dots,b_{M})^{T} \in \mathbb{R}^{M}$ is the vector of the coefficients and $\langle \cdot , \cdot \rangle$ is the scalar product of two vectors. Our goal is to obtain the coefficients $\bm{\hat{b}}= (\hat{b}_{1},\hat{b}_{2},\dots,\hat{b}_{M})^{T} \in \mathbb{R}^{M}$. Generally, we want to add an absolute term called \textit{bias} (or \textit{intercept}) to our linear regression model. We elegantly do so by adding a column of ones to the matrix  $\bm{X}$ which is then $N\times (M+1)$ dimensional and the vector of coefficients $\bm{\hat{b}}$ is $(M+1)$ dimensional. It will be assumed (unless explicitly said otherwise) that bias is included in the model.
+
+The linear model of ordinary least squares (OLS) is the best known method of statistical learning. The linear regression model for a matrix of regressor $\bm{X} \in \mathbb{R}^{N \times M}$ has the form
+
+\begin{equation}
+	y_i \approx \sum_{j=1}^{M}x_{ij} b_j = \langle \bm{x}_{i \bullet}, \bm{b} \rangle , \forall i \in \hat{N}.
+\end{equation}
+We want to find the estimate of the vector of coefficients $\bm{b} = (b_1, \dots, b_M)^T \in \mathbb{R}^M$. We perform the minimization of quadratic loss - the least squares
+\begin{equation}
+	\bm{\hat{b}}_{OLS} =\argmin_{\bm{b} \in \mathbb{R}^{M}} J_{OLS}(\bm{b}) = \argmin_{\bm{b} \in \mathbb{R}^{M}} \lVert \bm{y}-\bm{X}\bm{b}\rVert_{2}^2, \label{least_squares}
+\end{equation}
+It is necessary that the datapoints are independently identically distributed (iid). The equation \ref{least_squares} does not tell us if the model we find is valid. In other words, we can find the ordinary least squares model for any dataset and the model quality must be evaluated afterwards. It is easily seen the problem of least squares is convex which means the solution can be found in a closed form
+
+\begin{equation}
+	\begin{aligned}
+		J_{OLS}(\bm{b}) &=  \lVert \bm{y}-\bm{X}\bm{b}\rVert_{2}^2 = ( \bm{y}-\bm{X}\bm{b})^{T} (\bm{y}-\bm{X}\bm{b}) \\
+		\frac{\partial J_{OLS}} {\partial \bm{b}} &= -2 \bm{X}^T (\bm{y} - \bm{X}\bm{b})
+	\end{aligned}
+	\label{derivative}
+\end{equation}
+
+
+If $\bm{X}^{T}\bm{X}$ is regular, the unique solution can be recovered from $0 = \frac{\partial J_{OLS}} {\partial \bm{b}} \implies 0 =  \bm{X}^T (\bm{y} - \bm{X}\bm{b})$ which means that the coefficients $\bm{\hat{b}}$ are given as
+\begin{equation}
+	\bm{\hat{b}}=(\bm{X}^{T}\bm{X})^{-1}\bm{X}^{T}\bm{y}
+\end{equation}
+The predicted values at the training inputs are then
+\begin{equation}
+	\bm{\hat{y}} = \bm{X}\bm{\hat{b}} = \bm{X}(\bm{X}^T \bm{X})^{-1}\bm{X}^T \bm{y} = \bm{H} \bm{y}.
+\end{equation}
+The matrix $\bm{H} =\bm{X}(\bm{X}^T \bm{X})^{-1}\bm{X}^T$ is called the "hat" matrix because it puts the hat on vector $\bm{y}$ and it computes the orthogonal projection $\bm{{\hat{y}}}$ onto the hyperplane spanned by the columns of $\bm{X}$. Therefore the vector $\bm{y} - \bm{\hat{y}}$ is orthogonal to the hyperplane.
+
+If the $\bm{X}^{T}\bm{X}$ matrix is singular then there is not a unique solution. Methods which attempt to deal with such problems are subjects of the following sections.
+
+\subsection{Ridge Regression} \label{RR}
+Ridge regression solves the possible problem of matrix singularity from the previous section by adding a regularization term into the loss function:
+\begin{equation}
+	\bm{\hat{b}}_{ridge} =\argmin_{\bm{b} \in \mathbb{R}^{M}} J_{ridge}(\bm{b}) = \argmin_{\bm{b} \in \mathbb{R}^{M}} \Big( \lVert \bm{y} -\bm{X}\bm{b}\rVert_{2}^2 + \lambda \lVert \bm{b} \rVert^2_{2} \Big), \, \lambda>0. \label{ridge_regression}
+\end{equation}
+%where $\bm{1}$ is a vector of ones which we excluded from the matrix $\bm{X}$ and we excluded the coefficient $b_0$ from the vector $\bm{b}$ as well. The reasoning behind this is that we find the value of $b_0$ separately from the rest of the coefficients. The method would otherwise depend on the origin of $\bm{y}$. In other words, adding a constant vector $\bm{1}c$ to $\bm{y}$ would not result in a shift of the predicted values by  $\bm{1}c$. 
+The concept of regularization is sometimes called weight-decay because we impose a penalty on the size of $\bm{b}$. The parameter $\lambda$ controls the strength of the regularization. We get OLS coefficients for $\lambda \rightarrow 0^{+}$ and $\bm{\hat{b}}_{ridge}=0$ for $\lambda \rightarrow +\infty$. The solution can be found using the very same procedure as in (\ref{derivative}):
+\begin{equation}
+	\begin{aligned}
+		J_{ridge}(\bm{b}) &=  \lVert \bm{y} - \bm{X}\bm{b}\rVert_{2}^2 + \lambda \lVert \bm{b} \rVert^2_{2} = ( \bm{y}- \bm{X}\bm{b})^{T} (\bm{y} -\bm{X}\bm{b}) + \lambda \bm{b}^T \bm{b} \\
+		\frac{\partial J_{ridge}} {\partial \bm{b}} &= -2 \bm{X}^T (\bm{y} -\bm{X}\bm{b}) + 2\lambda \bm{b}.
+	\end{aligned}
+	\label{derivative_ridge}
+\end{equation}
+Putting $0 = \frac{\partial J_{ridge}} {\partial \bm{b}} \implies 0 =  -\bm{X}^T (\bm{y} -\bm{X}\bm{b}) + \lambda \bm{b} = -\bm{X}^T (\bm{y} -\bm{X}\bm{b}) + \lambda \bm{I}\bm{b}$, where $\bm{I}$ is the identity matrix. The solution can be easily extracted as
+\begin{equation}
+	\bm{\hat{b}}_{ridge} = (\bm{X}^T \bm{X} + \lambda \bm{I})^{-1} \bm{X}^T \bm{y}.
+	\label{ridge}
+\end{equation}
+It is important to standardize the columns of the matrix $\bm{X}$ before training to eliminate spurious behavior. The shape of the equation (\ref{ridge}) shows the reason this procedure works: the regularization stabilizes the inverse of the matrix for some value of $\lambda$. The optimal value is usually chosen using cross validation.
+
+\subsection{Kernel Ridge Regression (KRR)}
+Kernel ridge regression (KRR) builds on top of ridge regression and allows modeling of nonlinear relationships. We put $\bm{x}_{i \bullet} = \bm{x}_i$ to make the notation less cumbersome in this section. The datapoints themselves are replaced with a feature vector $\bm{x}_i \rightarrow \phi(\bm{x}_i) $ where $\phi: \mathbb{R}^{M} \rightarrow \mathcal{F}$ is a nonlinear mapping to a higher dimensional feature space $\mathcal{F}$, $\dim(\mathcal{F}) \leq +\infty$. Now, we consider datapoints $(\phi(\bm{x}_1),y_i), \dots , (\phi(\bm{x}_N), y_N)$ for the very same learning algorithm as in Section \ref{RR}. In other words, we find ridge regression coefficients and create a linear model in feature space where datapoints $(\phi(\bm{x}_1),y_i), \dots , (\phi(\bm{x}_N), y_N)$ are but we observe a nonlinear model in space where datapoints $(\bm{x}_1,y_i), \dots , (\bm{x}_N, y_N)$ are.
+
+We define the loss function of KRR
+
+\begin{equation}
+	J_{KRR}(\bm{b}) = \| \bm{y}-\Phi \bm{b} \|^2_2 + \lambda \| \bm{b} \|^2_2 = \sum_{i=1}^{N}\Big( y_i -\bm{b}^T \phi(\bm{x}_i) \Big)^2 + \lambda \bm{b}^T \bm{b},
+	\label{J_KRR}
+\end{equation}
+
+where $\lambda >0$ and $\Phi = \begin{pmatrix}
+	\phi^T (\bm{x}_1) \\
+	\vdots \\
+	\phi^T (\bm{x}_N) \\
+\end{pmatrix}$ is the mapping of matrix $\bm{X}$. Setting the gradient of $J_{KRR}$ in ($\ref{J_KRR}$) equal to zero gives
+
+\begin{equation}
+	\bm{b} = -\frac{1}{\lambda} \sum_{i=1}^{N}\Big( y_i -\bm{b}^T \phi(\bm{x}_i) \Big)\phi(\bm{x}_i) = \sum_{i=1}^{N} a_i \phi(\bm{x}_i) = \Phi^T \bm{a},
+	\label{reformulation}
+\end{equation}
+where we put 
+\begin{equation}
+	a_i = -\frac{1}{\lambda} \Big( y_i -\bm{b}^T \phi(\bm{x}_i) \Big) \; \text{for} \; \forall i \in \hat{N}.
+\end{equation}
+
+The result of (\ref{reformulation}) allows us to reformulate the loss function in terms of $\bm{a}$ instead of $\bm{b}$
+
+\begin{equation}
+	J_{KRR}(\bm{a}) = \| \bm{y} - \Phi \Phi^T \bm{a} \|^2_2 + \lambda \| \Phi^T \bm{a} \|^2_2 = \| \bm{y} - \Phi \Phi^T \bm{a} \|^2_2 + \lambda \bm{a}^T \Phi \Phi^T \bm{a}.
+\end{equation}
+Let us examine the result. We put  $K = \Phi \Phi^T$. Therefore
+
+\begin{equation}
+	K_{ij} = (\Phi \Phi^T)_{ij} =  \langle \phi(\bm{x}_i), \  \phi(\bm{x}_j) \rangle = k(\bm{x}_i, \bm{x}_j),
+\end{equation}
+where we introduce the kernel function $k: \mathbb{R}^N \times \mathbb{R}^N \rightarrow \mathbb{R}$. The loss function then takes very elegant form
+
+\begin{equation}
+	J_{KRR}(\bm{a}) = \|\bm{y} - K \bm{a} \|^2_2 + \lambda \bm{a}^T K \bm{a}.
+\end{equation}
+This is the final form of the loss function for KRR with kernel $K$. Setting the gradient of $J_{KRR}$ with respect to $\bm{a}$ to zero gives the final solution
+
+\begin{equation}
+	\bm{a} = (K + \lambda \bm{I})^{-1} \bm{y},
+\end{equation}
+and the original coefficients
+\begin{equation}
+	\bm{b} = \Phi^T (K + \lambda \bm{I})^{-1} \bm{y}.
+\end{equation}
+The prediction $y_{pred}$ for new datapoint $\bm{x}$ can be expressed elegantly as
+\begin{equation}
+	y_{pred} = \bm{b}^T \phi(\bm{x}) = \bm{a}^T \Phi \phi(\bm{x}) = \bm{y}^T (K + \lambda \bm{I})^{-1} \Phi \phi(\bm{x}) = \bm{y}^T (K + \lambda \bm{I})^{-1} \kappa(\bm{x}).
+\end{equation}
+where $\kappa(\bm{x}) = \begin{pmatrix}
+	\phi^T (\bm{x}_1) \\
+	\vdots \\
+	\phi^T (\bm{x}_N) \\
+\end{pmatrix} \phi(\bm{x}) = \begin{pmatrix}
+	\langle \phi (\bm{x}_1), \phi(\bm{x}) \rangle \\
+	\vdots \\
+	\langle \phi (\bm{x}_N), \phi(\bm{x}) \rangle \\
+\end{pmatrix} = \begin{pmatrix}
+	k(\bm{x}_1, \bm{x}) \\
+	\vdots \\
+	k(\bm{x}_N, \bm{x}) \\
+\end{pmatrix}$. We shall see that we can avoid working with the mapping $\phi(\bm{x})$ which can be even infinitely dimensional. The object of our interest is the kernel function $k$ and we will show it is all we need in the following section.
+
+So far, we dealt with the kernel $K$ and its kernel function $k(\bm{x}_i, \bm{x}_j)$ without specifying any needed properties of these mathematical objects. The following theorem explains why we can avoid working with the cumbersome mapping $\phi$ and justifies our previous steps.
+
+\begin{thm}[Mercer]
+	To guarantee that the symmetric continuous function $k(\bm{x}, \bm{y}): \mathcal{C} \times \mathcal{C} \rightarrow \mathbb{R}$ on compact set $\mathcal{C} \subset \mathbb{R}^N$ has an expansion
+	\begin{equation}
+		k(\bm{x}, \bm{y}) = \sum_{k=1}^{N_{\mathcal{F}}} \lambda_j \psi_j(\bm{x}) \psi_j(\bm{y}) = \langle \phi(\bm{x}), \phi(\bm{y}) \rangle
+	\end{equation}
+	with $\lambda_j >0$ and $\phi: \mathbb{R}^N \rightarrow \mathcal{F}$ with $\dim(\mathcal{F}) = N_{\mathcal{F}} \leq + \infty$, it is necessary and sufficient that  the function k is a kernel of a positive integral operator on $L_2 (\mathcal{C})$:
+	
+	\begin{equation}
+		\forall f \in L_2 (\mathcal{C}): \; \int_{\mathcal{C}} \int_{\mathcal{C}} k(\bm{x}, \bm{y}) f(\bm{x}) f(\bm{y}) d\bm{x} d\bm{y} \geq 0.
+	\end{equation}
+\end{thm}
+
+\emph{Proof.} Can be found in [?]. \qed
+
+
+It is easy to see a possible realization of the mapping can have the form $\phi(\bm{x}) = \Big(\sqrt{\lambda_1}\psi_1(\bm{x}), \sqrt{\lambda_2}\psi_2(\bm{x}), \dots \Big)$.
+
+The significance of this result is that we do not need to know the shape $\phi$. This is often called the kernel trick. The dimensionality of $\phi$ is infinite for Gaussian kernel $k(\bm{x}, \bm{y}) = \exp(- \gamma\| \bm{x} - \bm{y} \|^2_2)$ which can be seen from the following decomposition:
+\begin{equation}
+	\begin{aligned}
+		\langle \phi(\bm{x}), \phi(\bm{y}) \rangle &= k(\bm{x}, \bm{y}) = \exp(- \gamma\| \bm{x} - \bm{y} \|^2_2)=\exp(-\gamma \|\bm{x} \|^2_2 + 2\gamma \langle \bm{x}, \bm{y} \rangle - \gamma \|\bm{y} \|^2_2) = \\ &= \exp(-\gamma \|\bm{x} \|^2_2)\exp(2\gamma \langle \bm{x}, \bm{y} \rangle )\exp(-ˇ\gamma \|\bm{y} \|^2_2) ).
+	\end{aligned}
+\end{equation}
+Taking the middle term and using the fact that Taylor expansion of $e^x$ exists for all $x \in \mathbb{R}$:
+
+\begin{equation}
+	\begin{aligned}
+		\exp(2\gamma \langle \bm{x}, \bm{y} \rangle ) &= 1 + 2\gamma \langle \bm{x}, \bm{y} \rangle + \frac{(2\gamma)^2 \langle \bm{x}, \bm{y} \rangle^2}{2} + \frac{(2\gamma)^3 \langle \bm{x}, \bm{y} \rangle^3}{6} + \cdots = \\
+		&= 1 + 2\gamma (x_1 y_1 + x_2 y_2 + \cdots + x_N y_N)  + \cdots = \\
+		&= \left\langle( 1, \sqrt{2\gamma} x_1, \sqrt{2\gamma} x_2, \dots, \sqrt{2\gamma} x_N, \dots )^T, ( 1, \sqrt{2\gamma} y_1, \sqrt{2\gamma} y_2, \dots, \sqrt{2\gamma} y_N, \dots )^T \right\rangle,
+	\end{aligned}
+\end{equation}
+where we do not list higher order expansion terms for visibility. The mapping function can be expressed as
+\begin{equation}
+	\phi(\bm{x}) = \exp(-\gamma \|\bm{x} \|^2_2)\Big( 1, \sqrt{2\gamma} x_1, \sqrt{2\gamma} x_2, \dots, \sqrt{2\gamma} x_N, \dots \Big)^T,
+\end{equation}
+and its dimension is infinite because of the Taylor expansion we used.
+
+New kernels can be constructed from already developed kernels. We list a few of the techniques in Table \ref{techniques}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l} 
+		\hline
+		Construction Technique  \\ 
+		\hline
+		$k(\bm{x}, \bm{y}) = c k_1(\bm{x}, \bm{y})$   \\
+		$k(\bm{x}, \bm{y}) = f(\bm{x})k_1(\bm{x}, \bm{y}) f(\bm{y})$  \\
+		$k(\bm{x}, \bm{y}) = q(k_1(\bm{x}, \bm{y}))$   \\
+		$k(\bm{x}, \bm{y}) = \exp(k_1(\bm{x}, \bm{y}))$    \\
+		$k(\bm{x}, \bm{y}) = k_1(\bm{x}, \bm{y}) + k_2(\bm{x}, \bm{y})$  \\
+		$k(\bm{x}, \bm{y}) = k_1(\bm{x}, \bm{y}) k_2(\bm{x}, \bm{y})$\\
+		$k(\bm{x}, \bm{y}) = \bm{x}^T \bm{A} \bm{y}$                     \\
+		\hline
+	\end{tabular}
+	\caption{The $k_1(\bm{x}, \bm{y})$ and $k_2(\bm{x}, \bm{y})$ are valid kernels, constant $c>0$, $f$ is a function defined on $\mathbb{R}^N$, $q$ is a polynomial with nonnegative coefficients and $\bm{A}$ is a symmetric positive semidefinite matrix}
+	\label{techniques}
+\end{table}
+
+We can construct the Gaussian kernel from the linear kernel $k(\bm{x}, \bm{y}) = \bm{x}^T \bm{y}$ which is a trivial identity. We use the second and the fourth technique in Table \ref{techniques}:
+
+\begin{equation}
+	k(\bm{x}, \bm{y})= \exp(-\gamma \|\bm{x} \|^2_2 + 2\gamma \langle \bm{x}, \bm{y} \rangle \gamma + \|\bm{y} \|^2_2) = \exp(-\gamma \bm{x}^T \bm{x})  \exp(2\gamma  \bm{x}^T \bm{y})  \exp(-\gamma \bm{y}^T \bm{y}).
+\end{equation}
+
+Some commonly used kernels are listed in Table \ref{kernely}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll} 
+		\hline
+		& Kernels  \\ 
+		\hline
+		Gaussian & $ \exp(-\gamma \|\bm{x}-\bm{y} \|^2_2)$   \\
+		Laplacian & $ \exp(-\gamma \|\bm{x}-\bm{y} \|_1)$   \\
+		Sigmodial, & $\tanh(\kappa (\bm{x} \cdot \bm{y}) + \theta)$   \\
+		Polynomial & $(\bm{x} \cdot \bm{y} + \theta)^d$ \\
+		\hline
+	\end{tabular}
+	\caption{Commonly used kernels. $\gamma > 0$, $\kappa \in \mathbb{R}$, $\theta \in \mathbb{R}$, $d \in \mathbb{N}$.}
+	\label{kernely}
+\end{table}
+
+We are concerned with the Gaussian and Laplacian kernels because of their form. These two kernels have the property $k(\bm{x}, \bm{y}) = k(\| \bm{x}-\bm{y} \|_p)$ where $p\geq1$ and are called radial basis functions. This property will play an important role in the carried out experiments.
+
+Kernel ridge regression with Gaussian or Laplacian kernel have two parameters $\lambda$ and $\gamma$ which have to be optimized outside of the training procedure. Such numbers are called hyperparameters and the following section briefly outlines the methods used for their optimization as well as other important related practices.
+
+
+\subsection{The Least Absolute Shrinkage and Selection Operator (LASSO)}
+The LASSO emerged as a technique to obtain low-dimensional solutions to regression problems and interestingly enough, long before the underlying theory was developed and understood thoroughly. Since its establishment as a useful method, LASSO made its way into the portfolio of virtually every machine learning engineer. However, the proper use of the method with all the constrains fulfilled is not always done as it should be. This section establishes the theory needed to define LASSO with careful attention towards the use case in this work.
+\begin{defn}[\emph{k}-sparse vectors]
+	Let $k \in \mathbb{N}$ such that $k<M$. A vector $\bm{x} \in \mathbb{R}^{M}$ is called \emph{k}-sparse if $\lVert x\rVert_{0} \leqslant k$. The set of all \emph{k}-sparse vectors is
+	\begin{equation}
+		\mathbb{R}_{k}^{M} = \{ \bm{x} \in \mathbb{R}^{M} : \lVert x\rVert_{0} \leqslant k\} \label{ksparse}
+	\end{equation}
+\end{defn}
+
+\begin{rmrk}
+	It is easy to see that for every, $\bm{x} \in \mathbb{R}^{M}$ there is a permutation $\pi$: $\hat{M} \mapsto \hat{M}$ such that
+	\begin{equation}
+		|x_{\pi(1)}|\eqslantgtr |x_{\pi(2)}|\eqslantgtr \cdots \eqslantgtr|x_{\pi(M)}|\eqslantgtr 0.
+	\end{equation}
+	The vector $\bm{x}^* \in \mathbb{R}^{M}$ with components $x_{j}^*=|x_{\pi(j)}|$ for $j \in \hat{M}$ is called nonincreasing rearrangement of $\bm{x}$.
+\end{rmrk}
+
+\begin{defn}[The Best \emph{k}-term Approximation]
+	Let $k \leqslant M$ and $\ell_{p}$ be a norm, $p>1$. The best \emph{k}-term approximation $\sigma_k (\bm{x})_p$ of $\bm{x} \in \mathbb{R}^{M}$ is
+	\begin{equation}
+		\sigma_k (\bm{x})_p = \inf_{\bm{\tilde{x}} \in \mathbb{R}^{M}_k}\lVert \bm{x}-\bm{\tilde{x}}\rVert_{p} = \Big(\sum_{j=k+1}^{M}|{x}^{*}_j|^{p}\Big)^{ \frac{1}{p}}.
+	\end{equation}
+\end{defn}
+
+\subsection*{$\bm{\ell_{0}}$ Minimization and Basis Pursuit}
+
+\begin{defn}[$\ell_{0}$ Minimization]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. The $\ell_{0}$ minimization problem is defined as
+	
+	\begin{equation}
+		\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{0} \;subject\; to\; \bm{y} = \bm{A} \bm{x}. \label{l0}
+	\end{equation}
+\end{defn}
+
+\begin{rmrk}
+	It will be shown that $\ell_{0}$ minimization is numerically a very expensive optimization problem. For this purpose, we introduce the classes of complexity:
+	
+	\begin{itemize}
+		\item P class - all decision problems which can be solved in polynomial time.
+		\item NP class - a candidate for solution can be tested in polynomial time.
+		\item NP-hard class - decision problems for which all their solving algorithms can be transformed in polynomial time  into a solving algorithm of any other NP problem.
+		\item NP-complete class - those decision problems which are NP-hard and NP.
+	\end{itemize}
+	Here, we will present without a proof a problem from complexity theory called Three Cover Problem which is NP-complete.
+	\newline
+	\textbf{Three Cover Problem}
+	\newline
+	Let $N \in \mathbb{N}$ be divisible by 3 and $M \in \mathbb{N}$. We define a system $\{T_j: j \in \hat{M}\}$ of subsets of $\hat{N}$ and $\#T_j = 3$ for $\forall j \in \hat{M}$. \textbf{Decision problem:} Establish the existence of a subsystem $\{T_j: j \in J\}$ for which holds:
+	\begin{enumerate}
+		\item $\bigcup_{j \in J} T_j = \hat{N}$,
+		\item $T_i \bigcap T_j = \varnothing$ for $i,j \in J, i\neq j$.
+	\end{enumerate}
+	
+\end{rmrk}
+%\parencite{hastie09} \parencite{ghiringhelli15} \parencite{ghiringhelli17}
+\begin{thm}
+	The $\ell_{0}$ minimization problem is NP-hard.
+\end{thm}
+\emph{Proof.} The problem (\ref{l0}) will be reformulated as the Three Cover Problem. Using the notation in the definiton of the Three Cover problem we construct a matrix $\bm{A} \in \mathbb{R}^{N \times M}$ which columns $\bm{a}_j$ are the characteristic function of the given $T_j$. Therefore the components of $\bm{a}_j$ are defined as:
+\begin{equation*}
+	a_{ij} := \begin{cases}
+		1 &\text{if $i \in T_j$}\\
+		0 &\text{if $i \notin T_j$}.
+	\end{cases}
+\end{equation*}
+The vector and matrix multiplication gives
+\begin{equation*}
+	\bm{A} \bm{x}=\sum_{j=1}^{M}x_j \bm{a}_{j}.
+\end{equation*}
+It is easy to see from the construction itself that the matrix $\bm{A}$ can be constructed in polynomial time. Let's presume $\bm{x}$ is the solution of the $\ell_{0}$ minimization problem with $\bm{A} \bm{x}= \bm{y} = (1,\dots,1)^{T}$. The vector and matrix multiplication causes the amount of nonzero components of $\bm{x}$ to be at most three times bigger:
+\begin{equation*}
+	N = \lVert \bm{y} \rVert_{0} = \lVert \bm{A} \bm{x}\rVert_{0}\leqslant 3 \lVert \bm{x} \rVert_{0} \Leftrightarrow \lVert \bm{x} \rVert_{0} \geqslant N/3.
+\end{equation*}
+We will show: The Exact Cover problem has a solution if and only if $\lVert \bm{x} \rVert_{0} = N/3$.\newline
+$\Rightarrow$: Then $\exists J \subset \hat{M}$ and the amount of columns needed is precisely $N/3$, that is $|J| = N/3$ and
+\begin{equation*}
+	(1,\dots,1)^{T} = \sum_{j \in J} \bm{a}_j = \sum_{j =1}^{M} \bm{x}_j \bm{a}_j.
+\end{equation*}
+Now, it is easy to see that $\bm{x}$ has nonzero components which are ones and only for indices in $J$ which gives $\lVert x\rVert_{0}=|J|= N/3$.
+\newline
+$\Leftarrow$:
+Assuming $\bm{y}=\bm{A}\bm{x}$ with $\lVert x\rVert_{0}=N/3$ then we choose a subsystem $\{T_j: j \in supp(\bm{x})\}$.
+\qed
+
+\medskip
+%\begin{rmrk}
+	With $\ell_{0}$ minimization being too difficult to solve for any $\bm{A}$ and $\bm{y}$, we are force to find a feasible compromise. We demand the problem to be convex and also promote sparsity. Convexity will be ensured if we choose to use $\ell_{p}$ norm where $p\geqslant1$. Sparsity will be possible for $p\leqslant 1$. Therefore we are left with no other choice than $p = 1$ and explore whether such optimization problem can work for our purposes. Turns out it can for certain matrices.
+%\end{rmrk}
+
+\begin{defn}[Basis Pursuit]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. The $\ell_{1}$ minimization problem called Basis Pursuit is defined as
+	
+	\begin{equation}
+		\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{1} \;subject\; to\; \bm{y} = \bm{A} \bm{x}. \label{Basis Pursuit}
+	\end{equation}
+\end{defn}
+
+\subsection*{Null Space Property}
+
+\begin{rmrk}
+	Before we define Null Space Property, we will introduce useful notation which will be used onward. For $T\subset \hat{M}$ we denote by $T^{C} = \hat{M} \backslash T$ the complement of T in $\hat{M}$. For $\bm{v} \in \mathbb{R}^M$, we denote $\bm{v}_{T}$ the vector in $\mathbb{R}^{\#T}$ which contains the coordinates of $\bm{v}$ indexed by $T$ or the vector in $\mathbb{R}^{M}$ which equals $\bm{v}$ on $T$ and has zero components on $T^{C}$. % kdyztak doplnit definici A_T
+\end{rmrk}
+
+\begin{defn}[Null Space Property]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. Then $\bm{A}$ has the Null Space Property (NSP) of order $k$ if
+	
+	\begin{equation}
+		\lVert \bm{v}_{T}\rVert_{1} <  \lVert \bm{v}_{{T}^{C}}\rVert_{1}: \forall \bm{v} \in ker \bm{A} \backslash \{\bm{0}\} \ and \ \forall T \subset \hat{M} \ with \ |T|\leqslant k. \label{NSP}
+	\end{equation}
+	
+\end{defn}
+
+\begin{rmrk}
+	The Null Space Property of a matrix says that the components of vectors of the kernel are 'not so different from each other' or not supported solely on a few components. It is straight forward to see that the inequality in (\ref{NSP}) can be equivalently expressed as $\lVert \bm{v}\rVert_{1} <  2\lVert \bm{v}_{{T}^{C}}\rVert_{1}$ or $2\lVert \bm{v}_{T}\rVert_{1} <  \lVert \bm{v}_{{T}}\rVert_{1}$. The following theorem shows the relation between $k$-sparse solutions of (\ref{Basis Pursuit}) and NSP.
+\end{rmrk}
+
+\begin{thm}
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. Then,
+	\begin{center}
+		every $k$-sparse vector $\bm{x} \in \mathbb{R}^{M}$ is the unique solution of (\ref{Basis Pursuit}) $\Leftrightarrow$ $\bm{A}$ has the NSP of order $k$.
+	\end{center}
+\end{thm}
+
+\emph{Proof.} \newline 
+$\Rightarrow$: Let $\bm{v} \in ker \bm{A} \backslash \{ \bm{0}\}$, $T \subset \hat{M}$, $|T| \leqslant k$ arbitrary. Then from the presumption is $\bm{v}_T$ the unique solution of (\ref{Basis Pursuit}). Also,
+\begin{equation}
+	\bm{0}= \bm{A}\bm{v} = \bm{A}(\bm{v}_T + \bm{v}_{T^{C}}) \Leftrightarrow \bm{A}(-\bm{v}_{T^{C}}) = \bm{A}(\bm{v}_T).
+\end{equation}
+Since the solution is unique and $-\bm{v}_{T^{C}} \neq \bm{v}_T$ it must hold $\lVert\bm{v}_T\rVert_{1} < \lVert\bm{v}_{T^{C}}\rVert_{1}$ which means $\bm{A}$ has NSP of order $k$. \newline
+$\Leftarrow$:
+Let $\bm{x} \in \mathbb{R}^{M}$ be a $k$-sparse vector with supp($\bm{x}$) = T. We have to show that this vector is the unique solution of (\ref{Basis Pursuit}). That means, that if $\bm{z} \in \mathbb{R}^{M}$ is also a solution of (\ref{Basis Pursuit}) then $\lVert \bm{x}\rVert_{1} < \lVert \bm{z}\rVert_{1}$ for every such $\bm{z}$. Using the fact that both $\bm{x},\bm{z}$ are solutions $\bm{A} \bm{x} = \bm{y} = \bm{A} \bm{z}$, we get $(\bm{x}-\bm{z}) \in ker \bm{A} \backslash \{\bm{0}\}$. The implication then concludes from the inequality
+\begin{equation*}
+	\lVert \bm{x}\rVert_{1} \leqslant \lVert \bm{x} - \bm{z}_T \rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert (\bm{x} - \bm{z})_T \rVert_{1} + \lVert \bm{z}_T \rVert < \lVert (\bm{x} - \bm{z})_{{T}^{C}} \rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert \bm{z}_{{T}^{C}}\rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert \bm{z} \rVert_{1},
+\end{equation*}
+where we used (in order) the triangle inequality, the $k$-sparsity of $\bm{x}$, the NSP of $\bm{A}$, the $k$-sparsity of $\bm{x}$ and then the additivy of $\ell_{1}$ norm.
+\qed
+
+\begin{rmrk}
+	The theorem above implies solutions of problem (\ref{l0}) and (\ref{Basis Pursuit}) can overlap - if $\hat{\bm{x}}$ is also a solution of (\ref{l0}) and $\bm{x}$ is a $k$-sparse solution of (\ref{Basis Pursuit}) with $\bm{A}$ with NSP of order $k$ then $\lVert \hat{\bm{x}}\rVert_{0} \leqslant \lVert \bm{x} \rVert_{0} \leqslant k$ and Theorem 2 says $\hat{\bm{x}}$ is a solution of (\ref{Basis Pursuit}) and $\hat{\bm{x}} = \bm{x}$. In other words, there is a class of matrices for which the problem of $\ell_{0}$ minimization can be solved in polynomial time and that is done using the Basis Pursuit problem since the solutions coincide.
+\end{rmrk}
+
+\begin{rmrk}
+	It is easy to see from the definition of NSP that $\hat{\bm{A}} = \bm{M} \bm{A}$ where $\bm{A} \in \mathbb{R}^{N \times M}$ has NSP of order $k$ and $\bm{M} \in \mathbb{R}^{N \times N}$ is full rank then $\hat{\bm{A}}$ also has NSP of order $k$.
+\end{rmrk}
+\subsection*{Restricted Isometry Property}
+The Null Space Property is rather impractical because finding matrices which satisfy the condition is difficult. Therefore we define a stronger property of $\bm{A}$ which implies NSP.
+
+\begin{defn}[Restricted Isometry Property]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. The restricted isometry constant $\delta_k = \delta_k (\bm{A})$ of $\bm{A}$ of order $k$ is the smallest $\delta \geqslant 0$ such that
+	\begin{equation}
+		(1-\delta)\lVert \bm{x} \rVert_{2}^{2} \leqslant \lVert \bm{A} \bm{x} \rVert_{2}^{2} \leqslant (1+\delta)\lVert \bm{x} \rVert_{2}^{2} \  \forall \bm{x} \in \mathbb{R}^{M}_{k}. \label{RIP}
+	\end{equation}
+	We say $\bm{A}$ satisfies the Restricted Isometry Property (RIP) of order $k$ with the constant $\delta_k$ if $\delta_k < 1$.
+\end{defn}
+\pagestyle{headings}
+
+\begin{rmrk}
+	The condition (\ref{RIP}) means that $\bm{A}$ is almost isometrical on the set of $k$-sparse vectors. Trivial observation $\delta_1 (\bm{A}) \leqslant \delta_2 (\bm{A})\leqslant \cdots \leqslant \delta_k (\bm{A})$. The following theorem says that RIP implies NSP.
+	%ekvivalentni vyjadreni 1.10??
+\end{rmrk}
+
+\begin{thm}[RIP $\Rightarrow$ NSP]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \mathbb{N}$ such that $k \leqslant M/2$. Then
+	\begin{center}
+		$\delta_{2k}(\bm{A}) < 1/3 \Rightarrow \bm{A}$ has NSP of order $k$.
+	\end{center}
+	
+\end{thm}
+\emph{Proof.} Let $\bm{v} \in ker \bm{A}$ and $T \subset \hat{M}$ with $|T| \leqslant k$. We will prove the inequality
+\begin{equation}
+	\lVert \bm{v}_T\rVert_{2} \leqslant \frac{\delta_{2k}}{1-\delta_{k}} \cdot \frac{\lVert \bm{v} \rVert_{1}}{\sqrt{k}}, \label{THIS}
+\end{equation}
+because then under the assumption $\delta_{k} \leqslant \delta_{2k} < 1/3$, we get $\lVert \bm{v}_T \rVert_1 \leqslant \sqrt k\lVert \bm{v}_T \rVert_2 < \lVert \bm{v} \rVert_1 /2$ where the Hölder's inequality gives the first inenquality and (\ref{THIS}) gives the sharp inequality which combined with the note in Remark 6 gives NSP of order $k$. First, we will prove a small useful statement:
+\begin{equation}
+	\bm{x},\bm{z} \in \mathbb{R}^{M}_k \ such \ that \ supp(\bm{x}) \bigcap supp(\bm{z}) = \varnothing \ and \ \bm{A} \ has \ NSP \ of \ order \ 2k \ \Rightarrow |\langle\bm{Ax},\bm{Az}\rangle| \leqslant \delta_{2k} \lVert \bm{x} \rVert_2 \lVert \bm{z} \rVert_2. \label{statement}
+\end{equation}
+\emph{Proof of the statement.} It is easy to consider the validity of the following implication
+\begin{center}
+	$\bm{x},\bm{z} \in \mathbb{R}^{M}_k$, $\lVert \bm{x} \rVert_2 = \lVert \bm{z} \rVert_2 = 1$ such that $supp(\bm{x}) \bigcap supp(\bm{z}) = \varnothing$ $\Rightarrow \bm{x} \pm \bm{z} \in \mathbb{R}^{M}_{2k}$ and $\lVert \bm{x} \pm \bm{z} \rVert_2^2 = 2$.
+\end{center}
+Taking the RIP of $\bm{A}$ for $\bm{x} \pm \bm{z}$
+\begin{equation*}
+	2(1-\delta_{2k})\leqslant \lVert\bm{A}( \bm{\bm{x} \pm \bm{z}})\rVert_{2}^2 \leqslant 2(1+\delta_{2k}),
+\end{equation*}
+and combining it with the polarization identity gives
+\begin{equation*}
+	|\langle\bm{Ax},\bm{Az}\rangle| = \frac{1}{4} \Big|\lVert \bm{A}(\bm{x}+\bm{z})\rVert_2^{2} - \lVert \bm{A}(\bm{x}-\bm{z})\rVert_2^{2}\Big|\leqslant \frac{1}{4} \Big| 2(1+\delta_{2k}) - 2(1-\delta_{2k})\Big| \leqslant \delta_{2k}.
+\end{equation*}
+Finally, we plug in $\tilde{x} = x/\lVert x\rVert_2$ and $\tilde{z} = z/\lVert z\rVert_2$ and get the statement $|\langle\bm{Ax},\bm{Az}\rangle| \leqslant \delta_{2k} \lVert \bm{x} \rVert_2 \lVert \bm{z} \rVert_2$.
+\newline
+\newline
+Let $\bm{v} \in ker \bm{A}$ and let us consider a nonincreasing rearrangement $\bm{v}^*$ of $\bm{v}$. Then we slice the components of $\bm{v}^*$ into sets of size $k$ where the last set can be smaller:
+\begin{center}
+	$T_0 = \{1, \dots, k\}$, $T_1 = \{k+1, \dots, 2k\}$, $T_2 = \{2k+1, \dots, 3k\}$, etc.
+\end{center}
+Then
+\begin{equation}
+	\bm{A}\bm{v}_{T_0} = \bm{A}(-\bm{v}_{T_1}-\bm{v}_{T_2}- \dots). \label{something}
+\end{equation}
+We construct an estimation
+\begin{equation*}
+	\lVert\bm{v}_{T_0}\rVert_2^{2} \leqslant \frac{\lVert\bm{v}_{T_0}\rVert_2^{2}}{1-\delta_k} = \frac{1}{{1-\delta_k}}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_1})+\bm{A}(-\bm{v}_{T_2}) + \dots\rangle = \frac{1}{{1-\delta_k}} \sum_{j\geqslant 1}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_j}) \rangle \leqslant
+\end{equation*}
+\begin{equation*}
+	\leqslant \frac{1}{{1-\delta_k}} \sum_{j\geqslant 1}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_j})\rangle \leqslant \frac{1}{1-\delta_{k}} \delta_{2k} \sum_{j\geqslant 1} \lVert \bm{v}_{T_0}\rVert_2 \lVert \bm{v}_{T_j}\rVert_2,
+\end{equation*}
+where we applied the definition of $\ell_{2}$ norm through scalar product together with (\ref{something})  in the first equality and the proved statement (\ref{statement}) in the last inequality. Dividing the inequality by $\lVert\bm{v}_{T_0}\rVert_2 \neq 0$ finally gives
+\begin{equation}
+	\lVert\bm{v}_{T_0}\rVert_2 \leqslant \frac{\delta_{2k}}{1-\delta_{k}} \sum_{j\geqslant 1} \lVert \bm{v}_{T_j}\rVert_2. \label{almost}
+\end{equation}
+The proof is finished through the following chain of inequalities
+\begin{equation*}
+	\sum_{j\geqslant 1} \lVert\bm{v}_{T_j}\rVert_2 = \sum_{j\geqslant 1} \Big( \sum_{l \in T_j} |\bm{v}_l|^2 \Big)^{1/2} \leqslant \sum_{j\geqslant 1} \Big( k \max_{l \in T_j} |\bm{v}_l|^2 \Big)^{1/2} = \sum_{j\geqslant 1} \sqrt k \max_{l \in T_j} |\bm{v}_l| \leqslant 
+\end{equation*}
+\begin{equation*}
+	\leqslant	\sum_{j\geqslant 1} \sqrt k \min_{l \in T_{j-1}} |\bm{v}_l|
+	\leqslant \sum_{j\geqslant 1} \sqrt k \ \Big( \sum_{l \in T_{j-1}} \frac{1}{k} |\bm{v}_l| \Big) = \sum_{j\geqslant 1} \frac{\lVert \bm{v}_{T_{j-1}}\rVert_1}{\sqrt k} = \frac{\lVert \bm{v} \rVert_1}{\sqrt k}.
+\end{equation*}
+Plugging the above result into (\ref{almost}) gives the inequality (\ref{THIS}) since $T = T_0$.
+\qed
+
+\begin{coro}
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \mathbb{N}$ such that $k \leqslant M/2$. Then,
+	\begin{center}
+		$\delta_{2k} < 1/3 \Rightarrow$  every $k$-sparse vector $\bm{x}$ is the unique solution of (\ref{Basis Pursuit}).
+	\end{center}
+\end{coro}
+\emph{Proof.} Combining the Theorem 2 and 3 immediately gives the statement.
+\qed
+
+\begin{rmrk}
+	In a very nonrigorous reductionist manner, we can symbolically note
+	\begin{center}
+		RIP $\Rightarrow$ NSP $\Rightarrow$ $\ell_{1}$ solution $\Rightarrow$ $\ell_{0}$ solution.
+	\end{center}
+\end{rmrk}
+
+\subsection*{Stability and Robustness}
+So far, we assumed $\bm{y} = \bm{Ax}$ but that is not the case for a real setting. The input will always be influenced by errors $\bm{e} = \bm{y} - \bm{Ax}$. We will also want to recover vectors or their approximations which are not exactly sparse. %We will see that RIP is still sufficient even in settings with errors.
+
+\begin{defn}[Modified Basis Pursuit]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. Let $\eta \geqslant 0$. Then we define
+	
+	\begin{equation}
+		\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{1} \; subject \; to\;  \lVert \bm{A} \bm{x} - \bm{y} \rVert_2 \leqslant \eta. \label{Modified Basis Pursuit}
+	\end{equation}
+\end{defn}
+
+\begin{thm}
+	Let $\delta_{2k} < \sqrt 2  -1$ and $\lVert \bm{Ax}-\bm{y}\rVert_2 \leqslant \eta$. Then the solution $\hat{x}$ of (\ref{Modified Basis Pursuit}) satisfies
+	\begin{equation}
+		\lVert\bm{x} - \bm{\hat{x}}\rVert_2 \leqslant \frac{C \sigma_k(\bm{x})_1}{\sqrt k} + D \bm{\eta}, \label{approximation of solution}
+	\end{equation}
+\end{thm}
+where $C,D > 0$ are two universal constants.
+
+\emph{Proof.} We will once again make use of the statement (\ref{statement}) we proved during the proof of Theorem 3.
+
+\section{Data Transformation Methods}
+In both traditional statistical inference (LASSO, principal component analysis, etc.) and machine learning, it is either advantages or even required to perform some kind of transformation of the data. The most common purpose is to improve the performance of the model. The given transformation can have a physical meaning or interpretability, the motivation to perform such transformation can even be initiated by the context of the underlying problem.
+\subsection{Feature Standardization}
+The purpose of data standardization is to remove the difference of scale between features of the data. The standardization used in this work is fairly common and has the following form
+\begin{equation}
+	\bm{x'}_{\bullet i} = \frac{\bm{x}_{\bullet i} - \bm{\bar{x}}_{\bullet i}  }{\sigma_i},
+\end{equation}
+where $\bm{\bar{x}}_{\bullet i}$ is the mean of the column $\bm{x}_{\bullet i}$ of the matrix of regressors and $\sigma_i$ is the standard deviation of said column.  A special case of standardization is mean-centering which we get when $\sigma_i$ is set to one for all columns. The idea of standardization comes from the assumption that the data was sampled from standard normal distribution with zero mean and unit variance.
+\subsection{Feature Normalization}
+Feature normalization performs scaled of feature to interval (0,1). The transformation is given by
+\begin{equation}
+	\bm{x''}_{\bullet i} = \frac{\bm{x}_{\bullet i} - \min_{j} (\bm{x}_{\bullet j})  }{\max_{j} (\bm{x}_{\bullet j}) - \min_{j} (\bm{x}_{\bullet j})},
+\end{equation},
+where we define minimum of $j$th feature as $\min_{j} (\bm{x}_{\bullet j})$ and maximum of $j$th as $\max_{j} (\bm{x}_{\bullet j})$. Feature normalization can improve the performance of the model when the features are on different scaled by orders of magnitude. This usually happens when dealing with physical problems where variables have different units and therefore the method used is more sensitive to some features than it should be.
+
+\section{Model Validation Methods}
+
+\chapter{Feature Engineering}
+\section{Density Functional Theory Data}
+\section{Material Descriptors}
+
+\chapter{Classification Problem of Binary Compounds Experiment}
+something
+\chapter{Transparent Conductiong Oxides Experiment}
+something
+\chapter{Materials Project Experiment}
+something
+\chapter*{Conclusion}
+
+\addcontentsline{toc}{chapter}{Conclusion}
+
+something
+
+\printbibliography
+\end{document}
+
+
+\subsection{The Least Absolute Shrinkage and Selection Operator (LASSO)}
+\begin{defn}[\emph{k}-sparse vectors]
+	Let $k \in \mathbb{N}$ such that $k<M$. A vector $\bm{x} \in \mathbb{R}^{M}$ is called \emph{k}-sparse if $\lVert x\rVert_{0} \leqslant k$. The set of all \emph{k}-sparse vectors is
+	\begin{equation}
+	\mathbb{R}_{k}^{M} = \{ \bm{x} \in \mathbb{R}^{M} : \lVert x\rVert_{0} \leqslant k\} \label{ksparse}
+	\end{equation}
+\end{defn}
+
+\begin{rmrk}
+	It is easy to see that for every, $\bm{x} \in \mathbb{R}^{M}$ there is a permutation $\pi$: $\hat{M} \mapsto \hat{M}$ such that
+	\begin{equation}
+	|x_{\pi(1)}|\eqslantgtr |x_{\pi(2)}|\eqslantgtr \cdots \eqslantgtr|x_{\pi(M)}|\eqslantgtr 0.
+	\end{equation}
+	The vector $\bm{x}^* \in \mathbb{R}^{M}$ with components $x_{j}^*=|x_{\pi(j)}|$ for $j \in \hat{M}$ is called nonincreasing rearrangement of $\bm{x}$.
+\end{rmrk}
+
+\begin{defn}[The Best \emph{k}-term Approximation]
+	Let $k \leqslant M$ and $\ell_{p}$ be a norm, $p>1$. The best \emph{k}-term approximation $\sigma_k (\bm{x})_p$ of $\bm{x} \in \mathbb{R}^{M}$ is
+	\begin{equation}
+	\sigma_k (\bm{x})_p = \inf_{\bm{\tilde{x}} \in \mathbb{R}^{M}_k}\lVert \bm{x}-\bm{\tilde{x}}\rVert_{p} = \Big(\sum_{j=k+1}^{M}|{x}^{*}_j|^{p}\Big)^{ \frac{1}{p}}.
+	\end{equation}
+\end{defn}
+
+\subsection{$\bm{\ell_{0}}$ Minimization and Basis Pursuit}
+
+\begin{defn}[$\ell_{0}$ Minimization]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. The $\ell_{0}$ minimization problem is defined as
+	
+	\begin{equation}
+	\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{0} \;subject\; to\; \bm{y} = \bm{A} \bm{x}. \label{l0}
+	\end{equation}
+\end{defn}
+
+\begin{rmrk}
+	It will be shown that $\ell_{0}$ minimization is numerically a very expensive optimization problem. For this purpose, we introduce the classes of complexity:
+	
+	\begin{itemize}
+		\item P class - all decision problems which can be solved in polynomial time.
+		\item NP class - a candidate for solution can be tested in polynomial time.
+		\item NP-hard class - decision problems for which all their solving algorithms can be transformed in polynomial time  into a solving algorithm of any other NP problem.
+		\item NP-complete class - those decision problems which are NP-hard and NP.
+	\end{itemize}
+	Here, we will present without a proof a problem from complexity theory called Three Cover Problem which is NP-complete.
+	\newline
+	\textbf{Three Cover Problem}
+	\newline
+	Let $N \in \mathbb{N}$ be divisible by 3 and $M \in \mathbb{N}$. We define a system $\{T_j: j \in \hat{M}\}$ of subsets of $\hat{N}$ and $\#T_j = 3$ for $\forall j \in \hat{M}$. \textbf{Decision problem:} Establish the existence of a subsystem $\{T_j: j \in J\}$ for which holds:
+	\begin{enumerate}
+		\item $\bigcup_{j \in J} T_j = \hat{N}$,
+		\item $T_i \bigcap T_j = \varnothing$ for $i,j \in J, i\neq j$.
+	\end{enumerate}
+	
+\end{rmrk}
+%\parencite{hastie09} \parencite{ghiringhelli15} \parencite{ghiringhelli17}
+\begin{thm}
+	The $\ell_{0}$ minimization problem is NP-hard.
+\end{thm}
+\emph{Proof.} The problem (\ref{l0}) will be reformulated as the Three Cover Problem. Using the notation in the definiton of the Three Cover problem we construct a matrix $\bm{A} \in \mathbb{R}^{N \times M}$ which columns $\bm{a}_j$ are the characteristic function of the given $T_j$. Therefore the components of $\bm{a}_j$ are defined as:
+\begin{equation*}
+a_{ij} := \begin{cases}
+1 &\text{if $i \in T_j$}\\
+0 &\text{if $i \notin T_j$}.
+\end{cases}
+\end{equation*}
+The vector and matrix multiplication gives
+\begin{equation*}
+\bm{A} \bm{x}=\sum_{j=1}^{M}x_j \bm{a}_{j}.
+\end{equation*}
+It is easy to see from the construction itself that the matrix $\bm{A}$ is finished in polynomial time. Let's presume $\bm{x}$ is the solution of the $\ell_{0}$ minimization problem with $\bm{A} \bm{x}= \bm{y} = (1,\dots,1)^{T}$. The vector and matrix multiplication causes the amount of nonzero components of $\bm{x}$ to be max three times bigger:
+\begin{equation*}
+N = \lVert \bm{y} \rVert_{0} = \lVert \bm{A} \bm{x}\rVert_{0}\leqslant 3 \lVert \bm{x} \rVert_{0} \Leftrightarrow \lVert \bm{x} \rVert_{0} \geqslant N/3.
+\end{equation*}
+We will show: The Exact Cover problem has a solution $\Leftrightarrow$ $\lVert \bm{x} \rVert_{0} = N/3$.\newline
+$\Rightarrow$: Then $\exists J \subset \hat{M}$ and the amount of columns needed is precisely $N/3$, that is $|J| = N/3$ and
+\begin{equation*}
+(1,\dots,1)^{T} = \sum_{j \in J} \bm{a}_j = \sum_{j =1}^{M} \bm{x}_j \bm{a}_j.
+\end{equation*}
+Now, it is easy to see that $\bm{x}$ has nonzero components which are ones and only for indices in $J$ which gives $\lVert x\rVert_{0}=|J|= N/3$.
+\newline
+$\Leftarrow$:
+Assuming $\bm{y}=\bm{A}\bm{x}$ with $\lVert x\rVert_{0}=N/3$ then we choose a subsystem $\{T_j: j \in supp(\bm{x})\}$.
+\qed
+\begin{rmrk}
+	With $\ell_{0}$ minimization being too difficult to solve for any $\bm{A}$ and $\bm{y}$, we are force to find a feasible compromise. We demand the problem to be convex and also promote sparsity. Convexity will be ensured if we choose to use $\ell_{p}$ norm where $p\geqslant1$. Sparsity will be possible for $p\leqslant 1$. Therefore we are left with no other choice than $p = 1$ and explore whether such optimization problem can work for our purposes. Turns it can for certain matrices.
+\end{rmrk}
+
+\begin{defn}[Basis Pursuit]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. The $\ell_{1}$ minimization problem called Basis Pursuit is defined as
+	
+	\begin{equation}
+	\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{1} \;subject\; to\; \bm{y} = \bm{A} \bm{x}. \label{Basis Pursuit}
+	\end{equation}
+\end{defn}
+
+\subsection{Null Space Property}
+
+\begin{rmrk}
+	Before we define Null Space Property, we will introduce useful notation which will be used onward. For $T\subset \hat{M}$ we denote $T^{C} = \hat{M} \backslash T$ the complement of T in $\hat{M}$. For $\bm{v} \in \mathbb{R}^M$, we denote $\bm{v}_{T}$ the vector in $\mathbb{R}^{\#T}$ which contains the coordinates of $\bm{v}$ indexed by $T$ or the vector in $\mathbb{R}^{M}$ which equals $\bm{v}$ on $T$ and has zero components on $T^{C}$. % kdyztak doplnit definici A_T
+\end{rmrk}
+
+\begin{defn}[Null Space Property]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. Then $\bm{A}$ has the Null Space Property (NSP) of order $k$ if
+	
+	\begin{equation}
+	\lVert \bm{v}_{T}\rVert_{1} <  \lVert \bm{v}_{{T}^{C}}\rVert_{1}: \forall \bm{v} \in ker \bm{A} \backslash \{\bm{0}\} \ and \ \forall T \subset \hat{M} \ with \ |T|\leqslant k. \label{NSP}
+	\end{equation}
+	
+\end{defn}
+
+\begin{rmrk}
+	The Null Space Property of a matrix says that the components of vectors of the kernel are 'not so different from each other' or not supported solely on a few components. It is straight forward to see that the inequality in (\ref{NSP}) can be equivalently expressed as $\lVert \bm{v}\rVert_{1} <  2\lVert \bm{v}_{{T}^{C}}\rVert_{1}$ or $2\lVert \bm{v}_{T}\rVert_{1} <  \lVert \bm{v}_{{T}}\rVert_{1}$. The following theorem shows the relation between $k$-sparse solutions of (\ref{Basis Pursuit}) and NSP.
+\end{rmrk}
+
+\begin{thm}
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. Then,
+	\begin{center}
+		every $k$-sparse vector $\bm{x} \in \mathbb{R}^{M}$ is the unique solution of (\ref{Basis Pursuit}) $\Leftrightarrow$ $\bm{A}$ has the NSP of order $k$.
+	\end{center}
+\end{thm}
+
+\emph{Proof.} \newline 
+$\Rightarrow$: Let $\bm{v} \in ker \bm{A} \backslash \{ \bm{0}\}$, $T \subset \hat{M}$, $|T| \leqslant k$ arbitrary. Then from the presumption $\bm{v}_T$ is the unique solution of (\ref{Basis Pursuit}). Also,
+\begin{equation}
+\bm{0}= \bm{A}\bm{v} = \bm{A}(\bm{v}_T + \bm{v}_{T^{C}}) \Leftrightarrow \bm{A}(-\bm{v}_{T^{C}}) = \bm{A}(\bm{v}_T).
+\end{equation}
+Since the solution is unique and $-\bm{v}_{T^{C}} \neq \bm{v}_T$ it must hold $\lVert\bm{v}_T\rVert_{1} < \lVert\bm{v}_{T^{C}}\rVert_{1}$ which means $\bm{A}$ has NSP of order $k$. \newline
+$\Leftarrow$:
+Let $\bm{x} \in \mathbb{R}^{M}$ be a $k$-sparse vector with supp(x) = T. We have to show that this vector is the unique solution of (\ref{Basis Pursuit}). That means, that if $\bm{z} \in \mathbb{R}^{M}$ is also a solution of (\ref{Basis Pursuit}) then $\lVert \bm{x}\rVert_{1} < \lVert \bm{z}\rVert_{1}$ for every such $\bm{z}$. Using the fact that both $\bm{x},\bm{z}$ are solutions $\bm{A} \bm{x} = \bm{y} = \bm{A} \bm{z}$, we get $(\bm{x}-\bm{z}) \in ker \bm{A} \backslash \{\bm{0}\}$. The implication then concludes from the inequality
+\begin{equation*}
+\lVert \bm{x}\rVert_{1} \leqslant \lVert \bm{x} - \bm{z}_T \rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert (\bm{x} - \bm{z})_T \rVert_{1} + \lVert \bm{z}_T \rVert < \lVert (\bm{x} - \bm{z})_{{T}^{C}} \rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert \bm{z}_{{T}^{C}}\rVert_{1} + \lVert \bm{z}_T\rVert_{1} = \lVert \bm{z} \rVert_{1},
+\end{equation*}
+where we used (in order) the triangle inequality, the $k$-sparsity of $\bm{x}$, the NSP of $\bm{A}$, the $k$-sparsity of $\bm{x}$ and then the additivy of $\ell_{1}$ norm.
+\qed
+
+\begin{rmrk}
+	The theorem above implies solutions of problem (\ref{l0}) and (\ref{Basis Pursuit}) can overlap - if $\hat{\bm{x}}$ is also a solution of (\ref{l0}) and $\bm{x}$ is a $k$-sparse solution of (\ref{Basis Pursuit}) with $\bm{A}$ with NSP of order $k$ then $\lVert \hat{\bm{x}}\rVert_{0} \leqslant \lVert \bm{x} \rVert_{0} \leqslant k$ and Theorem 2 says $\hat{\bm{x}}$ is a solution of (\ref{Basis Pursuit}) and $\hat{\bm{x}} = \bm{x}$. In other words, there is a class of matrices for which the problem of $\ell_{0}$ minimization can be solved in polynomial time and that is done using the Basis Pursuit problem since the solutions coincide.
+\end{rmrk}
+
+\begin{rmrk}
+	It is easy to see from the definition of NSP that $\hat{\bm{A}} = \bm{M} \bm{A}$ where $\bm{A} \in \mathbb{R}^{N \times M}$ has NSP of order $k$ and $\bm{M} \in \mathbb{R}^{N \times N}$ is full rank then $\hat{\bm{A}}$ also has NSP of order $k$.
+\end{rmrk}
+\subsection{Restricted Isometry Property}
+The Null Space Property is rather impractical because finding matrices which satisfy the condition is difficult. Therefore we define a stronger property of $\bm{A}$ which implies NSP.
+
+\begin{defn}[Restricted Isometry Property]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \hat{M}$. The restricted isometry constant $\delta_k = \delta_k (\bm{A})$ of $\bm{A}$ of order $k$ is the smallest $\delta \geqslant 0$ such that
+	\begin{equation}
+	(1-\delta)\lVert \bm{x} \rVert_{2}^{2} \leqslant \lVert \bm{A} \bm{x} \rVert_{2}^{2} \leqslant (1+\delta)\lVert \bm{x} \rVert_{2}^{2} \ for all \bm{x} \in \mathbb{R}^{M}_{k}. \label{RIP}
+	\end{equation}
+	We say $\bm{A}$ satisfies the Restricted Isometry Property (RIP) of order $k$ with the constant $\delta_k$ if $\delta_k < 1$.
+\end{defn}
+\pagestyle{headings}
+
+\begin{rmrk}
+	The condition (\ref{RIP}) means that $\bm{A}$ is almost isometrical on the set of $k$-sparse vectors. Trivial observation: $\delta_1 (\bm{A}) \leqslant \delta_2 (\bm{A})\leqslant \cdots \leqslant \delta_k (\bm{A})$. The following theorem says that RIP implies NSP.
+	%ekvivalentni vyjadreni 1.10??
+\end{rmrk}
+
+\begin{thm}[RIP $\Rightarrow$ NSP]
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \mathbb{N}$ such that $k \leqslant M/2$. Then
+	\begin{center}
+		$\delta_{2k}(\bm{A}) < 1/3 \Rightarrow \bm{A}$ has NSP of order $k$.
+	\end{center}
+	
+\end{thm}
+\emph{Proof.} Let $\bm{v} \in ker \bm{A}$ and $T \subset \hat{M}$ with $|T| \leqslant k$. We will prove the inequality
+\begin{equation}
+\lVert \bm{v}_T\rVert_{2} \leqslant \frac{\delta_{2k}}{1-\delta_{k}} \cdot \frac{\lVert \bm{v} \rVert_{1}}{\sqrt{k}}, \label{THIS}
+\end{equation}
+because then under the assumption $\delta_{k} \leqslant \delta_{2k} < 1/3$, we get $\lVert \bm{v}_T \rVert_1 \leqslant \sqrt k\lVert \bm{v}_T \rVert_2 < \lVert \bm{v} \rVert_1 /2$ where the Hölder's inequality gives the first inenquality and (\ref{THIS}) gives the sharp inequality which combined with the note in Remark 6 gives NSP of order $k$. First, we will prove a small useful statement:
+\begin{equation}
+\bm{x},\bm{z} \in \mathbb{R}^{M}_k \ such \ that \ supp(\bm{x}) \bigcap supp(\bm{z}) = \varnothing \ and \ \bm{A} \ has \ NSP \ of \ order \ 2k \ \Rightarrow |\langle\bm{Ax},\bm{Az}\rangle| \leqslant \delta_{2k} \lVert \bm{x} \rVert_2 \lVert \bm{z} \rVert_2. \label{statement}
+\end{equation}
+\emph{Proof of the statement.} It is easy to consider the validity of the following implication
+\begin{center}
+	$\bm{x},\bm{z} \in \mathbb{R}^{M}_k$, $\lVert \bm{x} \rVert_2 = \lVert \bm{z} \rVert_2 = 1$ such that $supp(\bm{x}) \bigcap supp(\bm{z}) = \varnothing$ $\Rightarrow \bm{x} \pm \bm{z} \in \mathbb{R}^{M}_{2k}$ and $\lVert \bm{x} \pm \bm{z} \rVert_2^2 = 2$.
+\end{center}
+Taking the RIP of $\bm{A}$ for $\bm{x} \pm \bm{z}$
+\begin{equation*}
+2(1-\delta_{2k})\leqslant \lVert\bm{A}( \bm{\bm{x} \pm \bm{z}})\rVert_{2}^2 \leqslant 2(1+\delta_{2k}),
+\end{equation*}
+and combining it with the polarization identity gives
+\begin{equation*}
+|\langle\bm{Ax},\bm{Az}\rangle| = \frac{1}{4} \Big|\lVert \bm{A}(\bm{x}+\bm{z})\rVert_2^{2} - \lVert \bm{A}(\bm{x}-\bm{z})\rVert_2^{2}\Big|\leqslant \frac{1}{4} \Big| 2(1+\delta_{2k}) - 2(1-\delta_{2k})\Big| \leqslant \delta_{2k}.
+\end{equation*}
+Finally, we plug in $\tilde{x} = x/\lVert x\rVert_2$ and $\tilde{z} = z/\lVert z\rVert_2$ and get the statement $|\langle\bm{Ax},\bm{Az}\rangle| \leqslant \delta_{2k} \lVert \bm{x} \rVert_2 \lVert \bm{z} \rVert_2$.
+\newline
+\newline
+Let $\bm{v} \in ker \bm{A}$ and let us consider a nonincreasing rearrangement $\bm{v}^*$ of $\bm{v}$. Then we slice the components of $\bm{v}^*$ into sets of size $k$ where the last set can be smaller:
+\begin{center}
+	$T_0 = \{1, \dots, k\}$, $T_1 = \{k+1, \dots, 2k\}$, $T_2 = \{2k+1, \dots, 3k\}$, etc.
+\end{center}
+Then
+\begin{equation}
+\bm{A}\bm{v}_{T_0} = \bm{A}(-\bm{v}_{T_1}-\bm{v}_{T_2}- \dots). \label{something}
+\end{equation}
+We construct an estimation
+\begin{equation*}
+\lVert\bm{v}_{T_0}\rVert_2^{2} \leqslant \frac{\lVert\bm{v}_{T_0}\rVert_2^{2}}{1-\delta_k} = \frac{1}{{1-\delta_k}}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_1})+\bm{A}(-\bm{v}_{T_2}) + \dots\rangle = \frac{1}{{1-\delta_k}} \sum_{j\geqslant 1}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_j}) \rangle \leqslant
+\end{equation*}
+\begin{equation*}
+\leqslant \frac{1}{{1-\delta_k}} \sum_{j\geqslant 1}\langle\bm{A}\bm{v}_{T_0},\bm{A}(-\bm{v}_{T_j})\rangle \leqslant \frac{1}{1-\delta_{k}} \delta_{2k} \sum_{j\geqslant 1} \lVert \bm{v}_{T_0}\rVert_2 \lVert \bm{v}_{T_j}\rVert_2,
+\end{equation*}
+where we applied the definition of $\ell_{2}$ norm through scalar product together with (\ref{something})  in the first equality and the proved statement (\ref{statement}) in the last inequality. Dividing the inequality by $\lVert\bm{v}_{T_0}\rVert_2 \neq 0$ finally gives
+\begin{equation}
+\lVert\bm{v}_{T_0}\rVert_2 \leqslant \frac{\delta_{2k}}{1-\delta_{k}} \sum_{j\geqslant 1} \lVert \bm{v}_{T_j}\rVert_2. \label{almost}
+\end{equation}
+The proof is finished through the following chain of inequalities
+\begin{equation*}
+\sum_{j\geqslant 1} \lVert\bm{v}_{T_j}\rVert_2 = \sum_{j\geqslant 1} \Big( \sum_{l \in T_j} |\bm{v}_l|^2 \Big)^{1/2} \leqslant \sum_{j\geqslant 1} \Big( k \max_{l \in T_j} |\bm{v}_l|^2 \Big)^{1/2} = \sum_{j\geqslant 1} \sqrt k \max_{l \in T_j} |\bm{v}_l| \leqslant 
+\end{equation*}
+\begin{equation*}
+\leqslant	\sum_{j\geqslant 1} \sqrt k \min_{l \in T_{j-1}} |\bm{v}_l|
+\leqslant \sum_{j\geqslant 1} \sqrt k \ \Big( \sum_{l \in T_{j-1}} \frac{1}{k} |\bm{v}_l| \Big) = \sum_{j\geqslant 1} \frac{\lVert \bm{v}_{T_{j-1}}\rVert_1}{\sqrt k} = \frac{\lVert \bm{v} \rVert_1}{\sqrt k}.
+\end{equation*}
+Plugging the above result into (\ref{almost}) gives the inequality (\ref{THIS}) since $T = T_0$.
+\qed
+
+\begin{coro}
+	Let $\bm{A} \in \mathbb{R}^{N \times M}$ and $k \in \mathbb{N}$ such that $k \leqslant M/2$. Then,
+	\begin{center}
+		$\delta_{2k} < 1/3 \Rightarrow$  every $k$-sparse vector $\bm{x}$ is the unique solution of (\ref{Basis Pursuit}).
+	\end{center}
+\end{coro}
+\emph{Proof.} Combining the Theorem 2 and 3 immediately gives the statement.
+\qed
+
+\begin{rmrk}
+	In a very nonrigorous reductionist manner, we can symbolically note
+	\begin{center}
+		RIP $\Rightarrow$ NSP $\Rightarrow$ $\ell_{1}$ solution $\Rightarrow$ $\ell_{0}$ solution.
+	\end{center}
+\end{rmrk}
+
+\subsection{Stability and Robustness}
+So far, we assumed $\bm{y} = \bm{Ax}$ but that is not the case for a real setting. The input will always be influenced by errors $\bm{e} = \bm{y} - \bm{Ax}$. We will also want to recover vectors or their approximations which are not exactly sparse. %We will see that RIP is still sufficient even in settings with errors.
+
+\begin{defn}[Modified Basis Pursuit]
+	Let $\bm{x} \in \mathbb{R}^{M}$, $\bm{A} \in \mathbb{R}^{N \times M}$ be known and $\bm{y} \in \mathbb{R}^{N}$ be known. Let $\eta \geqslant 0$. Then we define
+	
+	\begin{equation}
+	\min_{\bm{{x}} \in \mathbb{R}^{M}}\lVert \bm{x}\rVert_{1} \; subject \; to\;  \lVert \bm{A} \bm{x} - \bm{y} \rVert_2 \leqslant \eta. \label{Modified Basis Pursuit}
+	\end{equation}
+\end{defn}
+
+\begin{thm}
+	Let $\delta_{2k} < \sqrt 2  -1$ and $\lVert \bm{Ax}-\bm{y}\rVert_2 \leqslant \eta$. Then the solution $\hat{x}$ of (\ref{Modified Basis Pursuit}) satisfies
+	\begin{equation}
+	\lVert\bm{x} - \bm{\hat{x}}\rVert_2 \leqslant \frac{C \sigma_k(\bm{x})_1}{\sqrt k} + D \bm{\eta}, \label{approximation of solution}
+	\end{equation}
+\end{thm}
+where $C,D > 0$ are two universal constants.
+
+\emph{Proof.} We will once again make use of the statement (\ref{statement}) we proved during the proof of Theorem 3.
+
+\textbf{DODELAT DUKAZ A DOTAHNOUT K LASSU}
