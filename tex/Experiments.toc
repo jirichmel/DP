@@ -2,8 +2,10 @@
 \babel@toc {american}{}
 \babel@toc {american}{}
 \babel@toc {american}{}
+\babel@toc {czech}{}
+\babel@toc {american}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Introduction}{9}{}%
+\contentsline {chapter}{Introduction}{10}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Methodology}{11}{}%
 \defcounter {refsection}{0}\relax 
@@ -13,28 +15,94 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}Ridge Regression}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Kernel Ridge Regression (KRR)}{13}{}%
+\contentsline {subsection}{\numberline {1.1.3}Kernel Ridge Regression (KRR)}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}The Least Absolute Shrinkage and Selection Operator (LASSO)}{16}{}%
+\contentsline {subsection}{\numberline {1.1.4}The Least Absolute Shrinkage and Selection Operator (LASSO)}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Data Transformation Methods}{20}{}%
+\contentsline {subsection}{\numberline {1.1.5}Deep Feedforward Networks}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Feature Standardization}{21}{}%
+\contentsline {section}{\numberline {1.2}Data Transformation Methods}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Feature Normalization}{21}{}%
+\contentsline {subsection}{\numberline {1.2.1}Feature Standardization}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Model Validation Methods}{21}{}%
+\contentsline {subsection}{\numberline {1.2.2}Feature Normalization}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Feature Engineering}{23}{}%
+\contentsline {section}{\numberline {1.3}Model Validation Methods}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Density Functional Theory Data}{23}{}%
+\contentsline {subsection}{\numberline {1.3.1}Error Metrics}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Material Descriptors}{23}{}%
+\contentsline {subsection}{\numberline {1.3.2}Cross Validation}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Classification Problem of Binary Compounds Experiment}{25}{}%
+\contentsline {subsection}{\numberline {1.3.3}Hyperparameter Tuning}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Transparent Conductiong Oxides Experiment}{27}{}%
+\contentsline {chapter}{\numberline {2}Feature Engineering}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Materials Project Experiment}{29}{}%
+\contentsline {section}{\numberline {2.1}Density Functional Theory Data}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{31}{}%
+\contentsline {section}{\numberline {2.2}Physical Background}{28}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Crystalline Structure}{28}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Coordination Numbers and Ionic Radii}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Material Descriptors}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}General Properties}{30}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Brief Overview of Already Developed Descriptors}{31}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Studied Descriptors}{32}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3.1}ngram}{32}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3.2}ngram Extended}{34}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3.3}Smooth Overlap of Atomic Positions (SOAP)}{35}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Classification Problem of Binary Compounds Experiment}{36}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The Dataset}{37}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}The Feature Space Generation}{37}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}The LASSO+$\ell _{0}$ Method}{39}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Results and Discussion}{40}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Cross Validation, Sensitivity Analysis and Extrapolation}{42}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.4.1}Leave One Out Cross Validation (LOOCV)}{42}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.4.2}Complexity of the Feature Space}{42}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.4.3}Sensitivity Analysis}{43}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Noised Primary Features}{43}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Adding Noise to $\Delta E$}{45}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}Extrapolation Capabilities of the Model}{46}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{BN and C (diamond)}{46}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Carbon Out}{46}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Transparent Conducting Oxides Experiment}{47}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}The Dataset}{47}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Formation Energy and Bandgap}{49}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Results and Discussion of ngram}{50}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Analysis}{50}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Modelling}{52}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{53}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}The Rocksalt-Zincblende Classification Dataset}{54}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Example of ngram Construction}{57}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Implementation and Attached Storage Device}{61}{}%

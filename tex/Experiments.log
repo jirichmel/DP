@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2022.2.5)  21 FEB 2022 01:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2022.4.5)  13 APR 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,6 +599,12 @@ File: babel.def 2021/03/24 3.56 Babel common definitions
 )
 \bbl@dirlevel=\count414
 
+(/app/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count415
+Package babel Info: Making - an active character on input line 226.
+)
 (/app/texlive/texmf-dist/tex/generic/babel-english/american.ldf
 Language: american 2017/06/06 v3.3r English support from the babel system
 
@@ -614,13 +620,35 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (/app/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip82
-\multirow@cntb=\count415
+\multirow@cntb=\count416
 \multirow@dima=\skip83
 \bigstrutjot=\dimen180
 )
 (/app/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
+(/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/app/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/app/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/app/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
 (/app/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/app/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/app/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -663,14 +691,14 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yd=\dimen192
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count416
-\c@pgf@countb=\count417
-\c@pgf@countc=\count418
-\c@pgf@countd=\count419
+\c@pgf@counta=\count417
+\c@pgf@countb=\count418
+\c@pgf@countc=\count419
+\c@pgf@countd=\count420
 \t@pgf@toka=\toks36
 \t@pgf@tokb=\toks37
 \t@pgf@tokc=\toks38
-\pgf@sys@id@count=\count420
+\pgf@sys@id@count=\count421
 
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -685,8 +713,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count421
-\pgfsyssoftpath@bigbuffer@items=\count422
+\pgfsyssoftpath@smallbuffer@items=\count422
+\pgfsyssoftpath@bigbuffer@items=\count423
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -716,7 +744,7 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen193
-\pgfmath@count=\count423
+\pgfmath@count=\count424
 \pgfmath@box=\box52
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
@@ -736,7 +764,7 @@ tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmeti
 cs.code.tex)))
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count424
+\c@pgfmathroundto@lastzeros=\count425
 ))
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -772,7 +800,7 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count425
+\pgf@picture@serial@count=\count426
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.te
 x
@@ -799,8 +827,8 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen273
-\pgf@sys@shading@range@num=\count426
-\pgf@shadingcount=\count427
+\pgf@sys@shading@range@num=\count427
+\pgf@shadingcount=\count428
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -854,7 +882,7 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/app/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count428
+\pgf@plot@mark@count=\count429
 \pgfplotmarksize=\dimen278
 )
 \tikz@lastx=\dimen279
@@ -869,17 +897,17 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count429
-\tikznumberofchildren=\count430
-\tikznumberofcurrentchild=\count431
-\tikz@fig@count=\count432
+\tikztreelevel=\count430
+\tikznumberofchildren=\count431
+\tikznumberofcurrentchild=\count432
+\tikz@fig@count=\count433
  (/app/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count433
-\pgfmatrixcurrentcolumn=\count434
-\pgf@matrix@numberofcolumns=\count435
+\pgfmatrixcurrentrow=\count434
+\pgfmatrixcurrentcolumn=\count435
+\pgf@matrix@numberofcolumns=\count436
 )
-\tikz@expandcount=\count436
+\tikz@expandcount=\count437
 
 (/app/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibra
 rytopaths.code.tex
@@ -889,15 +917,15 @@ Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
 (/app/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count437
-\calc@Bcount=\count438
+\calc@Acount=\count438
+\calc@Bcount=\count439
 \calc@Adimen=\dimen287
 \calc@Bdimen=\dimen288
 \calc@Askip=\skip84
 \calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count439
+\calc@Ccount=\count440
 \calc@Cskip=\skip86
 )
 (/app/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -912,83 +940,109 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 (/app/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count440
+\pdfpages@includegraphics@status=\count441
 \AM@pagebox=\box62
 \AM@global@opts=\toks44
-\AM@pagecnt=\count441
+\AM@pagecnt=\count442
 \AM@toc@title=\toks45
-\c@AM@survey=\count442
+\c@AM@survey=\count443
 \AM@templatesizebox=\box63
+)
+(/app/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
+
+(/app/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count444
+\l_MT_multwidth_dim=\dimen294
+\origjot=\skip87
+\l_MT_shortvdotswithinadjustabove_dim=\dimen295
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen296
+\l_MT_above_intertext_sep=\dimen297
+\l_MT_below_intertext_sep=\dimen298
+\l_MT_above_shortintertext_sep=\dimen299
+\l_MT_below_shortintertext_sep=\dimen300
+\xmathstrut@box=\box64
+\xmathstrut@dim=\dimen301
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count443
-\@quotereset=\count444
+\@quotelevel=\count445
+\@quotereset=\count446
 LaTeX Font Info:    Trying to load font information for T1+txr on input line 12
-7.
+4.
 (/app/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count445
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count447
+\l__pdf_internal_box=\box65
 )
-(./Experiments.aux)
+(./Experiments.aux
+
+LaTeX Warning: Label `proposed' multiply defined.
+
+)
 \openout1 = `Experiments.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 127.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 124.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-127.
+124.
  (/app/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-127.
+124.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-127.
+124.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 124.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-27.
+24.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    ... okay on input line 124.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 
 Package geometry Warning: The marginal notes overrun the paper.
-     Add 66.0945pt and more to the right margin.
+     Add 12.0945pt and more to the right margin.
 
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
 * v-part:(T,H,B)=(113.81102pt, 645.87756pt, 85.35826pt)
 * \paperwidth=597.50787pt
@@ -996,13 +1050,13 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \textwidth=455.24411pt
 * \textheight=645.87756pt
 * \oddsidemargin=13.08827pt
-* \evensidemargin=-15.36449pt
+* \evensidemargin=13.08827pt
 * \topmargin=-9.674pt
 * \headheight=22.76228pt
 * \headsep=28.45274pt
 * \topskip=11.0pt
 * \footskip=14.22636pt
-* \marginparwidth=116.0pt
+* \marginparwidth=62.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1010,40 +1064,31 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count446
-\scratchdimen=\dimen294
-\scratchbox=\box65
-\nofMPsegments=\count447
-\nofMParguments=\count448
+\scratchcounter=\count448
+\scratchdimen=\dimen302
+\scratchbox=\box66
+\nofMPsegments=\count449
+\nofMParguments=\count450
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count449
-\MPscratchDim=\dimen295
-\MPnumerator=\count450
-\makeMPintoPDFobject=\count451
+\MPscratchCnt=\count451
+\MPscratchDim=\dimen303
+\MPnumerator=\count452
+\makeMPintoPDFobject=\count453
 \everyMPtoPDFconversion=\toks47
-) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/app/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
-
-(/app/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+ (/app/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2020/12/06 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1057,6 +1102,12 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/app/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/06 v3.16 biblatex localization (PK/MW)
 ))
+Package biblatex Info: Trying to load language 'czech'...
+Package biblatex Info: ... file 'czech.lbx' found.
+
+(/app/texlive/texmf-dist/tex/latex/biblatex/lbx/czech.lbx
+File: czech.lbx 2020/12/06 v3.16 biblatex localization (PK/MW)
+)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
@@ -1084,9 +1135,65 @@ Package: blx-case-expl3 2020/12/06 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Experiments.bbl' found.
 
-(./Experiments.bbl)
-Package biblatex Info: Reference section=0 on input line 127.
-Package biblatex Info: Reference segment=0 on input line 127.
+(./Experiments.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'bartok13':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'faber15':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'hansen15':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'hansen13':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'li19':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'moussa12question':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'rupp12':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'rup12answer':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'schutt14':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'sutton19':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'xie18':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 124.
+Package biblatex Info: Reference segment=0 on input line 124.
  (/app/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
@@ -1098,34 +1205,34 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <Images/TITLE/cvut.pdf, id=4, 1128.215pt x 931.48pt>
 File: Images/TITLE/cvut.pdf Graphic file (type pdf)
 <use Images/TITLE/cvut.pdf>
-Package pdftex.def Info: Images/TITLE/cvut.pdf  used on input line 138.
+Package pdftex.def Info: Images/TITLE/cvut.pdf  used on input line 135.
 (pdftex.def)             Requested size: 85.35272pt x 70.46915pt.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-40.
+37.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-40.
+37.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-40.
+37.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-40.
+37.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-40.
+37.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1133,117 +1240,97 @@ File: utxsyc.fd 2000/12/15 v3.1
 <Images/TITLE/fjfi.pdf, id=5, 1239.63126pt x 1083.04625pt>
 File: Images/TITLE/fjfi.pdf Graphic file (type pdf)
 <use Images/TITLE/fjfi.pdf>
-Package pdftex.def Info: Images/TITLE/fjfi.pdf  used on input line 149.
+Package pdftex.def Info: Images/TITLE/fjfi.pdf  used on input line 146.
 (pdftex.def)             Requested size: 85.34549pt x 74.565pt.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 156.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 153.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <20.74> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 156.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 153.
  [1
 
 {/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Images/TITLE/cv
-ut.pdf> <./Images/TITLE/fjfi.pdf>] [2]
-<doc.pdf, id=24, 597.51233pt x 845.0471pt>
+ut.pdf> <./Images/TITLE/fjfi.pdf>]
+<doc.pdf, id=21, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf>
-Package pdftex.def Info: doc.pdf  used on input line 194.
+Package pdftex.def Info: doc.pdf  used on input line 191.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf>
-Package pdftex.def Info: doc.pdf  used on input line 194.
+Package pdftex.def Info: doc.pdf  used on input line 191.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<doc.pdf, id=27, page=1, 597.51233pt x 845.0471pt>
+<doc.pdf, id=24, page=1, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 194.
+Package pdftex.def Info: doc.pdf , page1 used on input line 191.
 (pdftex.def)             Requested size: 455.24411pt x 643.84138pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 194.
+Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+(pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
+ [2]
+File: doc.pdf Graphic file (type pdf)
+<use doc.pdf, page 1>
+Package pdftex.def Info: doc.pdf , page1 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 194.
+Package pdftex.def Info: doc.pdf , page1 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 194.
-(pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
-File: doc.pdf Graphic file (type pdf)
-<use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 194.
+Package pdftex.def Info: doc.pdf , page1 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
  [3 <./doc.pdf>]
 <doc.pdf, id=46, page=2, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 194.
+Package pdftex.def Info: doc.pdf , page2 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 194.
+Package pdftex.def Info: doc.pdf , page2 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 194.
+Package pdftex.def Info: doc.pdf , page2 used on input line 191.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
- [4 <./doc.pdf>] [5] [6
-
-]
+ [4 <./doc.pdf>] [5] [6] [7]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 242.
- (./Experiments.toc)
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 327.
+ (./Experiments.toc
+[8
+
+])
 \tf@toc=\write5
 \openout5 = `Experiments.toc'.
 
-
-[7] [8
-
-] [9] [10
+ [9] [10
 
 ]
 Chapter 1.
+[11
+
+]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 312.
-[11]
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 415.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 314.
- [12]
-Overfull \hbox (31.71387pt too wide) in paragraph at lines 372--373
-\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 ^^^\OT1/txr/m/n/10.95 (\OML/cmm/b/it/1
-0.95 x[]\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 ; y[]\OT1/txr/m/n/10.95 )\OML/
-txmi/m/it/10.95 ; [] ; \OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 ^^^\OT1/txr/m/n
-/10.95 (\OML/cmm/b/it/10.95 x[]\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 ; y[]\O
-T1/txr/m/n/10.95 )$ \T1/txr/m/n/10.95 are but we ob-serve a non-lin-ear model i
-n space where dat-a-points $\OT1/txr/m/n/10.95 (\OML/cmm/b/it/10.95 x[]\OML/txm
-i/m/it/10.95 ; y[]\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 ; [] ; \OT1/txr/m/n/
-10.95 (\OML/cmm/b/it/10.95 x[]\OML/txmi/m/it/10.95 ; y[]\OT1/txr/m/n/10.95 )$
- []
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 421.
+ [12] [13] [14] [15]
 
-[13]
-Overfull \hbox (24.98502pt too wide) in paragraph at lines 455--456
-[]\T1/txr/m/n/10.95 It is easy to see a pos-si-ble re-al-iza-tion of the map-pi
-ng can have the form $\OML/txmi/m/it/10.95 ^^^\OT1/txr/m/n/10.95 (\OML/cmm/b/it
-/10.95 x\OT1/txr/m/n/10.95 ) = [][]\OML/txmi/m/it/10.95  []\OT1/txr/m/n/10.95 (
-\OML/cmm/b/it/10.95 x\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 ; [] []\OT1/txr/m
-/n/10.95 (\OML/cmm/b/it/10.95 x\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 ; [] []
-$\T1/txr/m/n/10.95 . 
- []
+LaTeX Warning: Command \textasciicaron invalid in math mode on input line 649.
 
-
-LaTeX Warning: Command \textasciicaron invalid in math mode on input line 460.
-
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
-60.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
+49.
 (/app/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 
-LaTeX Warning: Command \textasciicaron invalid in math mode on input line 460.
+LaTeX Warning: Command \textasciicaron invalid in math mode on input line 649.
 
 Missing character: There is no Å in font txr!
-[14] [15] [16] [17] [18]
-Overfull \hbox (10.79607pt too wide) detected at line 703
+[16] [17] [18] [19] [20]
+Overfull \hbox (10.79607pt too wide) detected at line 895
 \OML/cmm/b/it/10.95 x\OML/txmi/m/it/10.95 ; \OML/cmm/b/it/10.95 z \OMS/txsy/m/n
 /10.95 2 \U/txsyb/m/n/10.95 R[] \OML/txmi/m/it/10.95 such that supp\OT1/txr/m/n
 /10.95 (\OML/cmm/b/it/10.95 x\OT1/txr/m/n/10.95 ) [] \OML/txmi/m/it/10.95 supp\
@@ -1251,74 +1338,335 @@ OT1/txr/m/n/10.95 (\OML/cmm/b/it/10.95 z\OT1/txr/m/n/10.95 ) = \U/txsyb/m/n/10.
 95 ? \OML/txmi/m/it/10.95 and \OML/cmm/b/it/10.95 A \OML/txmi/m/it/10.95 has NS
 P of order \OT1/txr/m/n/10.95 2\OML/txmi/m/it/10.95 k  \OMS/txsy/m/n/10.95 ) jh
 \OML/cmm/b/it/10.95 Ax\OML/txmi/m/it/10.95 ; \OML/cmm/b/it/10.95 Az\OMS/txsy/m/
-n/10.95 ij \U/txsya/m/n/10.95 6 \OML/txmi/m/it/10.95 ^^N[]\OMS/txsy/m/n/10.95 k
-\OML/cmm/b/it/10.95 x\OMS/txsy/m/n/10.95 k[]k\OML/cmm/b/it/10.95 z\OMS/txsy/m/n
-/10.95 k[]\OML/txmi/m/it/10.95 :
+n/10.95 ij ^^T \OML/txmi/m/it/10.95 ^^N[]\OMS/txsy/m/n/10.95 k\OML/cmm/b/it/10.
+95 x\OMS/txsy/m/n/10.95 k[]k\OML/cmm/b/it/10.95 z\OMS/txsy/m/n/10.95 k[]\OML/tx
+mi/m/it/10.95 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--720
+Underfull \hbox (badness 10000) in paragraph at lines 907--913
 
  []
 
-[19] [20] [21] [22
-
-]
+[21] [22] [23] [24] [25] [26] [27]
 Chapter 2.
-[23] [24
+[28
 
 ]
+<string_label_crop.png, id=144, 901.3675pt x 974.64125pt>
+File: string_label_crop.png Graphic file (type png)
+<use string_label_crop.png>
+Package pdftex.def Info: string_label_crop.png  used on input line 1183.
+(pdftex.def)             Requested size: 315.48334pt x 341.12955pt.
+ [29 <./string_label_crop.png (PNG copy)>] [30] [31]
+Overfull \hbox (1.05751pt too wide) in paragraph at lines 1258--1259
+[]\T1/txr/m/n/10.95 Among other de-scrip-tors re-viewed be-long the many-body t
+en-sor rep-re-sen-ta-tion (MBTR) which works
+ []
+
+[32] [33] [34]
+<train_id_20_final_Ga4_hotovo.png, id=164, 1923.185pt x 980.66376pt>
+File: train_id_20_final_Ga4_hotovo.png Graphic file (type png)
+<use train_id_20_final_Ga4_hotovo.png>
+Package pdftex.def Info: train_id_20_final_Ga4_hotovo.png  used on input line 1
+359.
+(pdftex.def)             Requested size: 442.32326pt x 225.54791pt.
+
+Overfull \hbox (30.81177pt too wide) in paragraph at lines 1356--1361
+[]\T1/txr/m/n/10.95 The pro-ce-dure of ngram and ex-tended ngram con-struc-tion
+ out-lined above is ap-plied to $\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 Al[]G
+a[]In[]\OT1/txr/m/n/10.95 )[]\OML/txmi/m/it/10.95 O[]$
+ []
+
+[35 <./train_id_20_final_Ga4_hotovo.png (PNG copy)>]
 Chapter 3.
-[25] [26
+<rocksalt_nolabels.pdf, id=168, 578.16pt x 794.97pt>
+File: rocksalt_nolabels.pdf Graphic file (type pdf)
+<use rocksalt_nolabels.pdf>
+Package pdftex.def Info: rocksalt_nolabels.pdf  used on input line 1377.
+(pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
+<wurtzite_nolabels.pdf, id=169, 578.16pt x 794.97pt>
+File: wurtzite_nolabels.pdf Graphic file (type pdf)
+<use wurtzite_nolabels.pdf>
+Package pdftex.def Info: wurtzite_nolabels.pdf  used on input line 1380.
+(pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
+<zincblende_nolabels.pdf, id=170, 578.16pt x 794.97pt>
+File: zincblende_nolabels.pdf Graphic file (type pdf)
+<use zincblende_nolabels.pdf>
+Package pdftex.def Info: zincblende_nolabels.pdf  used on input line 1383.
+(pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
 
-]
+LaTeX Warning: Command \r invalid in math mode on input line 1391.
+
+[36
+
+ <./rocksalt_nolabels.pdf> <./wurtzite_nolabels.pdf> <./zincblende_nolabels.pdf
+>] [37]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38]
+Overfull \hbox (30.3384pt too wide) in paragraph at lines 1558--1560
+\T1/txr/m/n/10.95 where $\OML/txmi/m/it/10.95 dim\OT1/txr/m/n/10.95 (\OML/txmi/
+m/it/10.95 ^^U\OT1/txr/m/n/10.95 )$ \T1/txr/m/n/10.95 means the num-ber of $\OM
+L/txmi/m/it/10.95 ^^U$ \T1/txr/m/n/10.95 val-ues eval-u-ated dur-ing the LASSO+
+$\OML/txmi/m/it/10.95 `[]$ \T1/txr/m/n/10.95 pro-ce-dure, $\OML/txmi/m/it/10.95
+ ^^U[] \OT1/txr/m/n/10.95 = [] [][] \OMS/txsy/m/n/10.95 jh\OML/cmm/b/it/10.95 x
+[]\OML/txmi/m/it/10.95 ; \OT1/cmr/bx/n/10.95 ^^A\OML/cmm/b/it/10.95 E\OMS/txsy/
+m/n/10.95 ij$
+ []
+
+[39]
+<lasso.pdf, id=191, 402.95316pt x 290.98099pt>
+File: lasso.pdf Graphic file (type pdf)
+<use lasso.pdf>
+Package pdftex.def Info: lasso.pdf  used on input line 1608.
+(pdftex.def)             Requested size: 402.95216pt x 290.98027pt.
+ [40] [41 <./lasso.pdf>] [42]
+Overfull \hbox (1.01094pt too wide) in paragraph at lines 1681--1745
+ [][] 
+ []
+
+[43] [44]
+Overfull \hbox (18.16127pt too wide) in paragraph at lines 1757--1777
+ [][] 
+ []
+
+[45] [46]
 Chapter 4.
-[27] [28
+
+Overfull \hbox (27.14687pt too wide) in paragraph at lines 1853--1854
+[][] 
+ []
+
+[47
 
 ]
-Chapter 5.
-[29] [30
+<train_id_20_vegard_hotovo.png, id=267, 1923.185pt x 979.66pt>
+File: train_id_20_vegard_hotovo.png Graphic file (type png)
+<use train_id_20_vegard_hotovo.png>
+Package pdftex.def Info: train_id_20_vegard_hotovo.png  used on input line 1860
+.
+(pdftex.def)             Requested size: 480.79507pt x 244.9144pt.
+<train_id_20_final_hotovo.png, id=268, 1923.185pt x 979.66pt>
+File: train_id_20_final_hotovo.png Graphic file (type png)
+<use train_id_20_final_hotovo.png>
+Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 1863.
+
+(pdftex.def)             Requested size: 480.79507pt x 244.9144pt.
+
+Overfull \hbox (25.55096pt too wide) in paragraph at lines 1860--1866
+[][]
+ []
+
+
+Overfull \hbox (25.55096pt too wide) in paragraph at lines 1860--1866
+[] 
+ []
+
+<rsn.pdf, id=269, 600.72244pt x 169.22095pt>
+File: rsn.pdf Graphic file (type pdf)
+<use rsn.pdf>
+Package pdftex.def Info: rsn.pdf  used on input line 1871.
+(pdftex.def)             Requested size: 480.57861pt x 135.37692pt.
+
+Overfull \hbox (25.3345pt too wide) in paragraph at lines 1871--1872
+[][] 
+ []
+
+[48 <./train_id_20_vegard_hotovo.png (PNG copy)> <./train_id_20_final_hotovo.pn
+g (PNG copy)>] [49 <./rsn.pdf>]
+<vegard_nonzero_unigram_competition.pdf, id=311, 600.04805pt x 166.64885pt>
+File: vegard_nonzero_unigram_competition.pdf Graphic file (type pdf)
+<use vegard_nonzero_unigram_competition.pdf>
+Package pdftex.def Info: vegard_nonzero_unigram_competition.pdf  used on input 
+line 1901.
+(pdftex.def)             Requested size: 480.0391pt x 133.31924pt.
+<final_nonzero_unigram_competition.pdf, id=312, 600.04805pt x 166.64885pt>
+File: final_nonzero_unigram_competition.pdf Graphic file (type pdf)
+<use final_nonzero_unigram_competition.pdf>
+Package pdftex.def Info: final_nonzero_unigram_competition.pdf  used on input l
+ine 1902.
+(pdftex.def)             Requested size: 480.0391pt x 133.31924pt.
+
+Overfull \hbox (24.79498pt too wide) in paragraph at lines 1901--1903
+ [][] 
+ []
+
+
+Overfull \hbox (24.79498pt too wide) in paragraph at lines 1901--1903
+ [] 
+ []
+
+[50]
+
+LaTeX Warning: Command \r invalid in math mode on input line 1911.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1912.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1913.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1914.
+
+[51 <./vegard_nonzero_unigram_competition.pdf> <./final_nonzero_unigram_competi
+tion.pdf
+
+pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./final_nonzero_un
+igram_competition.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] [52] [53
 
 ]
+Appendix A.
+[54
 
-LaTeX Warning: Empty bibliography on input line 819.
+]
+Overfull \vbox (72.25797pt too high) has occurred while \output is active []
 
-[31] (./Experiments.aux)
+
+[55]
+Overfull \hbox (1.52pt too wide) in paragraph at lines 1990--2093
+[]$[]$  $[]$ 
+ []
+
+[56]
+Appendix B.
+
+Overfull \hbox (35.38878pt too wide) in paragraph at lines 2096--2152
+[]\T1/txr/m/n/10.95 We show the con-struc-tion of the ngram step by step for be
+t-ter un-de-stand-ing on an al-loy $\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 Al
+[]Ga[]In[]\OT1/txr/m/n/10.95 )[]\OML/txmi/m/it/10.95 O[]$\T1/txr/m/n/10.95 .
+ []
+
+File: train_id_20_final_hotovo.png Graphic file (type png)
+<use train_id_20_final_hotovo.png>
+Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 2170.
+
+(pdftex.def)             Requested size: 442.32326pt x 225.31706pt.
+[57
+
+]
+Overfull \hbox (23.60332pt too wide) detected at line 2199
+\OML/cmm/b/it/6 D \OT1/txr/m/n/6 = []
+ []
+
+
+Overfull \hbox (4.01425pt too wide) in paragraph at lines 2206--2211
+ [][] 
+ []
+
+[58]
+<id_20_graph.pdf, id=423, 867.24pt x 867.24pt>
+File: id_20_graph.pdf Graphic file (type pdf)
+<use id_20_graph.pdf>
+Package pdftex.def Info: id_20_graph.pdf  used on input line 2219.
+(pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 2224.
+
+[59 <./id_20_graph.pdf>]
+<unigram_id_20.pdf, id=445, 595.9703pt x 166.64885pt>
+File: unigram_id_20.pdf Graphic file (type pdf)
+<use unigram_id_20.pdf>
+Package pdftex.def Info: unigram_id_20.pdf  used on input line 2228.
+(pdftex.def)             Requested size: 506.57716pt x 141.65218pt.
+
+Overfull \hbox (51.33305pt too wide) in paragraph at lines 2228--2229
+ [][] 
+ []
+
+[60 <./unigram_id_20.pdf>]
+Appendix C.
+[61
+
+]
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
+235.
+ (/app/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Overfull \hbox (41.59004pt too wide) in paragraph at lines 2236--2236
+[]\T1/txr/m/n/10.95 Ian Good-fel-low, Yoshua Ben-gio, and Aaron Courville. \T1/
+txr/m/it/10.95 Deep Learn-ing\T1/txr/m/n/10.95 . $\T1/txtt/m/n/10.95 http : / /
+ www . deeplearningbook .
+ []
+
+[62
+
+]
+Overfull \hbox (14.55704pt too wide) in paragraph at lines 2236--2236
+[]\T1/txr/m/it/10.95 Jiri Chmel research-project github repos-i-tory\T1/txr/m/n
+/10.95 . \T1/txr/m/sc/10.95 url\T1/txr/m/n/10.95 : $\T1/txtt/m/n/10.95 https : 
+/ / github . com / jirichmel / research -[]
+ []
+
+
+Overfull \hbox (12.88324pt too wide) in paragraph at lines 2236--2236
+\T1/txr/m/n/10.95 with Ma-chine Learn-ing".'' In: \T1/txr/m/it/10.95 Phys. Rev.
+ Lett. \T1/txr/m/n/10.95 109 (5 2012), p. 059801. \T1/txr/m/sc/10.95 doi\T1/txr
+/m/n/10.95 : $\T1/txtt/m/n/10.95 10 . 1103 / PhysRevLett .
+ []
+
+[63]
+Overfull \hbox (33.49721pt too wide) in paragraph at lines 2236--2236
+\T1/txr/m/it/10.95 te-ri-als Sci-ence Chal-lenges Through Crowd Sourc-ing\T1/tx
+r/m/n/10.95 . 2018. arXiv: $\T1/txtt/m/n/10.95 1812 . 00085$ [cond-mat.mtrl-sci
+]\T1/txr/m/n/10.95 . 
+ []
+
+[64] (./Experiments.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'Experiments.run.xml'.
 \openout1 = `Experiments.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25221 strings out of 478994
- 472344 string characters out of 5859690
- 977538 words of memory out of 5000000
- 42188 multiletter control sequences out of 15000+600000
- 496728 words of font info for 189 fonts, out of 8000000 for 9000
+ 26504 strings out of 478994
+ 498088 string characters out of 5859690
+ 1045037 words of memory out of 5000000
+ 43418 multiletter control sequences out of 15000+600000
+ 510740 words of font info for 213 fonts, out of 8000000 for 9000
  1152 hyphenation exceptions out of 8191
- 87i,17n,89p,1852b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,17n,89p,1852b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/app/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</app/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbsy10.pfb></app/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cmextra/cmbsy8.pfb></app/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
-></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></app/
-texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxbmi.pfb></app/texlive/texmf-dist/fonts/type1/pu
-blic/txfonts/rtxi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></app/texlive
-/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></app/texlive/texmf-dist/fonts
-/type1/public/txfonts/txex.pfb></app/texlive/texmf-dist/fonts/type1/public/txfo
-nts/txsy.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></ap
-p/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></app/texlive/texmf-d
-ist/fonts/type1/public/txfonts/txsyc.pfb></app/texlive/texmf-dist/fonts/type1/u
-rw/times/utmb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
-</app/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on Experiments.pdf (31 pages, 222128 bytes).
+m/cmbx8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmib10.pfb></app/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cmextra/cmmib6.pfb></app/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cmextra/cmmib8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss12.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/txf
+onts/rtcxr.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></a
+pp/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></app/texlive/texmf
+-dist/fonts/type1/public/txfonts/rtxi.pfb></app/texlive/texmf-dist/fonts/type1/
+public/txfonts/rtxmi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rt
+xr.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></app/texlive/texmf-dist/fo
+nts/type1/public/txfonts/txex.pfb></app/texlive/texmf-dist/fonts/type1/public/t
+xfonts/txsy.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><
+/app/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></app/texlive/texm
+f-dist/fonts/type1/public/txfonts/txsyc.pfb></app/texlive/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb></app/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on Experiments.pdf (64 pages, 3313004 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 592 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
