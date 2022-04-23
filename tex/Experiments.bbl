@@ -17,6 +17,305 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{tensorflow15}{misc}{}
+    \name{author}{40}{}{%
+      {{hash=AM}{%
+         family={Abadi},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Barham},
+         familyi={B\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brevdo},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Citro},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CGS}{%
+         family={Corrado},
+         familyi={C\bibinitperiod},
+         given={G.\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Devin},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Ghemawat},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Goodfellow},
+         familyi={G\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Harp},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IG}{%
+         family={Irving},
+         familyi={I\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Isard},
+         familyi={I\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jozefowicz},
+         familyi={J\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kudlur},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Levenberg},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Man\'{e}},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Monga},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Murray},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Olah},
+         familyi={O\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schuster},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shlens},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Talwar},
+         familyi={T\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vi\'{e}gas},
+         familyi={V\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Warden},
+         familyi={W\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wattenberg},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wicke},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+  \strng{fullhash}{AMAABPBECZCCCGSDADJDMGSGIHAIGIMJYJRKLKMLJMDMRMSMDOCSMSJSBSITKTPVVVVVFVOWPWMWMYYZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{Software available from tensorflow.org}
+    \field{title}{TensorFlow: Large-Scale Machine Learning on Heterogeneous
+  Systems}
+    \verb{url}
+    \verb https://www.tensorflow.org/
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{bartok15}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BAP}{%
+         family={Bartok},
+         familyi={B\bibinitperiod},
+         given={A.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Csanyi},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{interatomic potentials, machine learning, Gaussian process, ab
+  initio, atomic environments}
+    \strng{namehash}{BAPCG1}
+    \strng{fullhash}{BAPCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1002/qua.24927
+    \endverb
+    \verb{eprint}
+    \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/qua.24927
+    \endverb
+    \field{number}{16}
+    \field{pages}{1051\bibrangedash 1057}
+    \field{title}{Gaussian approximation potentials: A brief tutorial
+  introduction}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/qua.24927
+    \endverb
+    \field{volume}{115}
+    \field{journaltitle}{International Journal of Quantum Chemistry}
+    \field{year}{2015}
+  \endentry
+
   \entry{bartok13}{article}{}
     \name{author}{3}{}{%
       {{hash=BAP}{%
@@ -106,6 +405,113 @@
     \field{year}{2015}
   \endentry
 
+  \entry{sklearn_api}{inproceedings}{}
+    \name{author}{15}{}{%
+      {{hash=BL}{%
+         family={Buitinck},
+         familyi={B\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Louppe},
+         familyi={L\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Blondel},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Pedregosa},
+         familyi={P\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Grisel},
+         familyi={G\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Niculae},
+         familyi={N\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Prettenhofer},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gramfort},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Grobler},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Layton},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={VanderPlas},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Joly},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Holt},
+         familyi={H\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Varoquaux},
+         familyi={V\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL+1}
+    \strng{fullhash}{BLLGBMPFMAGONVPPGAGJLRVJJAHBVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{ECML PKDD Workshop: Languages for Data Mining and Machine
+  Learning}
+    \field{pages}{108\bibrangedash 122}
+    \field{title}{{API} design for machine learning software: experiences from
+  the scikit-learn project}
+    \field{year}{2013}
+  \endentry
+
   \entry{jurka}{book}{}
     \name{author}{1}{}{%
       {{hash=CJ}{%
@@ -127,6 +533,64 @@
       {Physical Engineering, Czech Technical University in Prague}%
     }
     \field{year}{2019}
+  \endentry
+
+  \entry{csanyi07}{article}{}
+    \name{author}{7}{}{%
+      {{hash=CG}{%
+         family={Cs{\'a}nyi},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Winfield},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KJR}{%
+         family={Kermode},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=VAD}{%
+         family={Vita},
+         familyi={V\bibinitperiod},
+         given={A.\bibnamedelima De},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Comisso},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PMC}{%
+         family={Payne},
+         familyi={P\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGWSKJRVADCABNPMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{Spring 2007}
+    \field{title}{Expressive Programming for Computational Physics in Fortran
+  95+}
+    \field{journaltitle}{IoP Comput. Phys. Newsletter}
+    \field{year}{2007}
   \endentry
 
   \entry{faber15}{article}{}
@@ -375,19 +839,19 @@
       {{hash=GI}{%
          family={Goodfellow},
          familyi={G\bibinitperiod},
-         given={Ian},
+         given={I.},
          giveni={I\bibinitperiod},
       }}%
       {{hash=BY}{%
          family={Bengio},
          familyi={B\bibinitperiod},
-         given={Yoshua},
+         given={Y.},
          giveni={Y\bibinitperiod},
       }}%
       {{hash=CA}{%
          family={Courville},
          familyi={C\bibinitperiod},
-         given={Aaron},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
     }
@@ -684,14 +1148,66 @@
     \field{year}{2016}
   \endentry
 
-  \entry{github}{misc}{}
+  \entry{im19}{article}{}
+    \name{author}{6}{}{%
+      {{hash=IJ}{%
+         family={Im},
+         familyi={I\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Ko},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KHW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={H.\bibnamedelima W.},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hyon},
+         familyi={H\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IJ+1}
+    \strng{fullhash}{IJLSKTKHWHYCH1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{title}{Jiri Chmel research-project github repository}
-    \verb{url}
-    \verb https://github.com/jirichmel/research-project
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \verb{doi}
+    \verb 10.1038/s41524-019-0177-0
     \endverb
+    \field{issn}{2057-3960}
+    \field{number}{1}
+    \field{pages}{37}
+    \field{title}{Identifying Pb-free perovskites for solar cells by machine
+  learning}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41524-019-0177-0
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{npj Computational Materials}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{jmol}{misc}{}
@@ -703,6 +1219,32 @@
     \verb{url}
     \verb http://www.jmol.org/
     \endverb
+  \endentry
+
+  \entry{kermode20}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KJR}{%
+         family={Kermode},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJR1}
+    \strng{fullhash}{KJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1088/1361-648X/ab82d2
+    \endverb
+    \field{issn}{0953-8984, 1361-648X}
+    \field{title}{f90wrap: an automated tool for constructing deep Python
+  interfaces to modern Fortran codes}
+    \field{journaltitle}{J. Phys. Condens. Matter}
+    \field{month}{03}
+    \field{year}{2020}
   \endentry
 
   \entry{li19}{article}{}
@@ -826,6 +1368,43 @@
     \field{journaltitle}{Advanced Materials}
   \endentry
 
+  \entry{mercer09}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MJ}{%
+         family={Mercer},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FAS}{%
+         family={Forsyth},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJFAS1}
+    \strng{fullhash}{MJFAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1098/rsta.1909.0016
+    \endverb
+    \field{number}{441-458}
+    \field{pages}{415\bibrangedash 446}
+    \field{title}{XVI. Functions of positive and negative type, and their
+  connection the theory of integral equations}
+    \verb{url}
+    \verb https://royalsocietypublishing.org/doi/abs/10.1098/rsta.1909.0016
+    \endverb
+    \field{volume}{209}
+    \field{journaltitle}{Philosophical Transactions of the Royal Society of
+  London. Series A, Containing Papers of a Mathematical or Physical Character}
+    \field{year}{1909}
+  \endentry
+
   \entry{moussa12question}{article}{}
     \name{author}{1}{}{%
       {{hash=MJE}{%
@@ -858,6 +1437,57 @@
     \field{journaltitle}{Phys. Rev. Lett.}
     \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{muller01}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MKR}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={K.-R.},
+         giveni={K\bibinithyphendelim R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mika},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rätsch},
+         familyi={R\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tsuda},
+         familyi={T\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Schölkopf},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MKR+1}
+    \strng{fullhash}{MKRMSRGTKSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1109/72.914517
+    \endverb
+    \field{pages}{181\bibrangedash 201}
+    \field{title}{An Introduction to Kernel-Based Learning Algorithms}
+    \field{volume}{12}
+    \field{journaltitle}{IEEE transactions on neural networks / a publication
+  of the IEEE Neural Networks Council}
+    \field{month}{02}
+    \field{year}{2001}
   \endentry
 
   \entry{scikit-learn}{article}{}
@@ -1079,6 +1709,55 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{saravanan21}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SKM}{%
+         family={Saravanan},
+         familyi={S\bibinitperiod},
+         given={K.\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hossain},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Reza},
+         familyi={R\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SKM+1}
+    \strng{fullhash}{SKMZHHTRSWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1007/7653_2020_58
+    \endverb
+    \field{isbn}{978-1071613658}
+    \field{title}{Deep Learning-Based Drug Screening for COVID-19 and Case
+  Studies}
+    \field{month}{05}
+    \field{year}{2021}
+  \endentry
+
   \entry{schutt14}{article}{}
     \name{author}{6}{}{%
       {{hash=SKT}{%
@@ -1141,6 +1820,37 @@
     \field{volume}{89}
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{segall12}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Segall},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1007/s10822-011-9512-3
+    \endverb
+    \field{issn}{1573-4951}
+    \field{number}{1}
+    \field{pages}{121\bibrangedash 124}
+    \field{title}{Can we really do computer-aided drug design?}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10822-011-9512-3
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{Journal of Computer-Aided Molecular Design}
+    \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -1358,6 +2068,44 @@
     \verb{url}
     \verb https://nomad-lab.eu/prod/rae/gui/dataset/id/nn56nNWzSOGmuf0ptRMymg
     \endverb
+  \endentry
+
+  \entry{tibshirani11}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TRJ}{%
+         family={Tibshirani},
+         familyi={T\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{TRJTJ1}
+    \strng{fullhash}{TRJTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1214/11-aos878
+    \endverb
+    \field{number}{3}
+    \field{title}{The solution path of the generalized lasso}
+    \verb{url}
+    \verb https://doi.org/10.1214%2F11-aos878
+    \endverb
+    \field{volume}{39}
+    \field{journaltitle}{The Annals of Statistics}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{wang20}{article}{}

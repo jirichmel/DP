@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2022.4.5)  13 APR 2022 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2022.4.5)  24 APR 2022 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,6 +237,40 @@ Package caption Info: float package is loaded.
 \sf@top=\skip58
 \sf@bottom=\skip59
 )
+(/app/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/app/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/app/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box51
+))
+(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+
+(/app/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+))
 (/app/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/06 v3.16 programmable bibliographies (PK/MW)
 
@@ -256,7 +290,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/app/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count283
+\etb@tempcnta=\count284
 )
 (/app/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
@@ -266,7 +300,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/app/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count284
+\lrq@indent=\count285
 
 (/app/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -274,48 +308,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/app/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count285
-\c@listtotal=\count286
-\c@listcount=\count287
-\c@liststart=\count288
-\c@liststop=\count289
-\c@citecount=\count290
-\c@citetotal=\count291
-\c@multicitecount=\count292
-\c@multicitetotal=\count293
-\c@instcount=\count294
-\c@maxnames=\count295
-\c@minnames=\count296
-\c@maxitems=\count297
-\c@minitems=\count298
-\c@citecounter=\count299
-\c@maxcitecounter=\count300
-\c@savedcitecounter=\count301
-\c@uniquelist=\count302
-\c@uniquename=\count303
-\c@refsection=\count304
-\c@refsegment=\count305
-\c@maxextratitle=\count306
-\c@maxextratitleyear=\count307
-\c@maxextraname=\count308
-\c@maxextradate=\count309
-\c@maxextraalpha=\count310
-\c@abbrvpenalty=\count311
-\c@highnamepenalty=\count312
-\c@lownamepenalty=\count313
-\c@maxparens=\count314
-\c@parenlevel=\count315
-\blx@tempcnta=\count316
-\blx@tempcntb=\count317
-\blx@tempcntc=\count318
-\blx@maxsection=\count319
-\blx@maxsegment@0=\count320
-\blx@notetype=\count321
-\blx@parenlevel@text=\count322
-\blx@parenlevel@foot=\count323
-\blx@sectionciteorder@0=\count324
-\blx@entrysetcounter=\count325
-\blx@biblioinstance=\count326
+\c@tabx@nest=\count286
+\c@listtotal=\count287
+\c@listcount=\count288
+\c@liststart=\count289
+\c@liststop=\count290
+\c@citecount=\count291
+\c@citetotal=\count292
+\c@multicitecount=\count293
+\c@multicitetotal=\count294
+\c@instcount=\count295
+\c@maxnames=\count296
+\c@minnames=\count297
+\c@maxitems=\count298
+\c@minitems=\count299
+\c@citecounter=\count300
+\c@maxcitecounter=\count301
+\c@savedcitecounter=\count302
+\c@uniquelist=\count303
+\c@uniquename=\count304
+\c@refsection=\count305
+\c@refsegment=\count306
+\c@maxextratitle=\count307
+\c@maxextratitleyear=\count308
+\c@maxextraname=\count309
+\c@maxextradate=\count310
+\c@maxextraalpha=\count311
+\c@abbrvpenalty=\count312
+\c@highnamepenalty=\count313
+\c@lownamepenalty=\count314
+\c@maxparens=\count315
+\c@parenlevel=\count316
+\blx@tempcnta=\count317
+\blx@tempcntb=\count318
+\blx@tempcntc=\count319
+\blx@maxsection=\count320
+\blx@maxsegment@0=\count321
+\blx@notetype=\count322
+\blx@parenlevel@text=\count323
+\blx@parenlevel@foot=\count324
+\blx@sectionciteorder@0=\count325
+\blx@entrysetcounter=\count326
+\blx@biblioinstance=\count327
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -327,9 +361,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count327
-\c@maxcomprange=\count328
-\c@mincompwidth=\count329
+\c@mincomprange=\count328
+\c@maxcomprange=\count329
+\c@mincompwidth=\count330
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -340,74 +374,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count330
-\c@savedafterword=\count331
-\c@annotator=\count332
-\c@savedannotator=\count333
-\c@author=\count334
-\c@savedauthor=\count335
-\c@bookauthor=\count336
-\c@savedbookauthor=\count337
-\c@commentator=\count338
-\c@savedcommentator=\count339
-\c@editor=\count340
-\c@savededitor=\count341
-\c@editora=\count342
-\c@savededitora=\count343
-\c@editorb=\count344
-\c@savededitorb=\count345
-\c@editorc=\count346
-\c@savededitorc=\count347
-\c@foreword=\count348
-\c@savedforeword=\count349
-\c@holder=\count350
-\c@savedholder=\count351
-\c@introduction=\count352
-\c@savedintroduction=\count353
-\c@namea=\count354
-\c@savednamea=\count355
-\c@nameb=\count356
-\c@savednameb=\count357
-\c@namec=\count358
-\c@savednamec=\count359
-\c@translator=\count360
-\c@savedtranslator=\count361
-\c@shortauthor=\count362
-\c@savedshortauthor=\count363
-\c@shorteditor=\count364
-\c@savedshorteditor=\count365
-\c@labelname=\count366
-\c@savedlabelname=\count367
-\c@institution=\count368
-\c@savedinstitution=\count369
-\c@lista=\count370
-\c@savedlista=\count371
-\c@listb=\count372
-\c@savedlistb=\count373
-\c@listc=\count374
-\c@savedlistc=\count375
-\c@listd=\count376
-\c@savedlistd=\count377
-\c@liste=\count378
-\c@savedliste=\count379
-\c@listf=\count380
-\c@savedlistf=\count381
-\c@location=\count382
-\c@savedlocation=\count383
-\c@organization=\count384
-\c@savedorganization=\count385
-\c@origlocation=\count386
-\c@savedoriglocation=\count387
-\c@origpublisher=\count388
-\c@savedorigpublisher=\count389
-\c@publisher=\count390
-\c@savedpublisher=\count391
-\c@language=\count392
-\c@savedlanguage=\count393
-\c@origlanguage=\count394
-\c@savedoriglanguage=\count395
-\c@pageref=\count396
-\c@savedpageref=\count397
+\c@afterword=\count331
+\c@savedafterword=\count332
+\c@annotator=\count333
+\c@savedannotator=\count334
+\c@author=\count335
+\c@savedauthor=\count336
+\c@bookauthor=\count337
+\c@savedbookauthor=\count338
+\c@commentator=\count339
+\c@savedcommentator=\count340
+\c@editor=\count341
+\c@savededitor=\count342
+\c@editora=\count343
+\c@savededitora=\count344
+\c@editorb=\count345
+\c@savededitorb=\count346
+\c@editorc=\count347
+\c@savededitorc=\count348
+\c@foreword=\count349
+\c@savedforeword=\count350
+\c@holder=\count351
+\c@savedholder=\count352
+\c@introduction=\count353
+\c@savedintroduction=\count354
+\c@namea=\count355
+\c@savednamea=\count356
+\c@nameb=\count357
+\c@savednameb=\count358
+\c@namec=\count359
+\c@savednamec=\count360
+\c@translator=\count361
+\c@savedtranslator=\count362
+\c@shortauthor=\count363
+\c@savedshortauthor=\count364
+\c@shorteditor=\count365
+\c@savedshorteditor=\count366
+\c@labelname=\count367
+\c@savedlabelname=\count368
+\c@institution=\count369
+\c@savedinstitution=\count370
+\c@lista=\count371
+\c@savedlista=\count372
+\c@listb=\count373
+\c@savedlistb=\count374
+\c@listc=\count375
+\c@savedlistc=\count376
+\c@listd=\count377
+\c@savedlistd=\count378
+\c@liste=\count379
+\c@savedliste=\count380
+\c@listf=\count381
+\c@savedlistf=\count382
+\c@location=\count383
+\c@savedlocation=\count384
+\c@organization=\count385
+\c@savedorganization=\count386
+\c@origlocation=\count387
+\c@savedoriglocation=\count388
+\c@origpublisher=\count389
+\c@savedorigpublisher=\count390
+\c@publisher=\count391
+\c@savedpublisher=\count392
+\c@language=\count393
+\c@savedlanguage=\count394
+\c@origlanguage=\count395
+\c@savedoriglanguage=\count396
+\c@pageref=\count397
+\c@savedpageref=\count398
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -443,19 +477,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/app/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/06 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count398
-\c@textcitetotal=\count399
-\c@textcitemaxnames=\count400
-\c@biburlbigbreakpenalty=\count401
-\c@biburlbreakpenalty=\count402
-\c@biburlnumpenalty=\count403
-\c@biburlucpenalty=\count404
-\c@biburllcpenalty=\count405
+\c@textcitecount=\count399
+\c@textcitetotal=\count400
+\c@textcitemaxnames=\count401
+\c@biburlbigbreakpenalty=\count402
+\c@biburlbreakpenalty=\count403
+\c@biburlnumpenalty=\count404
+\c@biburlucpenalty=\count405
+\c@biburllcpenalty=\count406
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count406
+\c@smartand=\count407
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -467,8 +501,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/app/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/06 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count407
-\c@bbx:relatedtotal=\count408
+\c@bbx:relatedcount=\count408
+\c@bbx:relatedtotal=\count409
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -493,10 +527,10 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/app/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\c@thm=\count409
-\c@defn=\count410
-\c@rmrk=\count411
-\c@coro=\count412
+\c@thm=\count410
+\c@defn=\count411
+\c@rmrk=\count412
+\c@coro=\count413
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -590,19 +624,19 @@ Package: babel 2021/03/24 3.56 The Babel package
 
 (/app/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count413
+\babel@savecnt=\count414
 \U@D=\dimen179
 \l@babelnohyphens=\language88
 
 (/app/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 )
-\bbl@dirlevel=\count414
+\bbl@dirlevel=\count415
 
 (/app/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf
 Language: czech 2008/07/06 v3.1a Czech support from the babel system
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count415
+\cs@wordlen=\count416
 Package babel Info: Making - an active character on input line 226.
 )
 (/app/texlive/texmf-dist/tex/generic/babel-english/american.ldf
@@ -620,7 +654,7 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (/app/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip82
-\multirow@cntb=\count416
+\multirow@cntb=\count417
 \multirow@dima=\skip83
 \bigstrutjot=\dimen180
 )
@@ -659,7 +693,7 @@ e
 
 (/app/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/app/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box51
+\pgfutil@abb=\box52
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/app/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -691,14 +725,14 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yd=\dimen192
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count417
-\c@pgf@countb=\count418
-\c@pgf@countc=\count419
-\c@pgf@countd=\count420
+\c@pgf@counta=\count418
+\c@pgf@countb=\count419
+\c@pgf@countc=\count420
+\c@pgf@countd=\count421
 \t@pgf@toka=\toks36
 \t@pgf@tokb=\toks37
 \t@pgf@tokc=\toks38
-\pgf@sys@id@count=\count421
+\pgf@sys@id@count=\count422
 
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -713,29 +747,12 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count422
-\pgfsyssoftpath@bigbuffer@items=\count423
+\pgfsyssoftpath@smallbuffer@items=\count423
+\pgfsyssoftpath@bigbuffer@items=\count424
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/app/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/app/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
@@ -744,8 +761,8 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen193
-\pgfmath@count=\count424
-\pgfmath@box=\box52
+\pgfmath@count=\count425
+\pgfmath@box=\box53
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
 \pgfmath@stack@operation=\toks41
@@ -764,7 +781,7 @@ tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmeti
 cs.code.tex)))
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count425
+\c@pgfmathroundto@lastzeros=\count426
 ))
 (/app/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -797,10 +814,10 @@ File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box53
-\pgf@hbox=\box54
-\pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count426
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count427
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.te
 x
@@ -827,15 +844,15 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen273
-\pgf@sys@shading@range@num=\count427
-\pgf@shadingcount=\count428
+\pgf@sys@shading@range@num=\count428
+\pgf@shadingcount=\count429
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box56
+\pgfexternal@startupbox=\box57
 ))
 (/app/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -850,7 +867,7 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/app/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box57
+\pgfnodeparttextbox=\box58
 )
 (/app/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -882,7 +899,7 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/app/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count429
+\pgf@plot@mark@count=\count430
 \pgfplotmarksize=\dimen278
 )
 \tikz@lastx=\dimen279
@@ -893,21 +910,21 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen284
 \tikzleveldistance=\dimen285
 \tikzsiblingdistance=\dimen286
-\tikz@figbox=\box58
-\tikz@figbox@bg=\box59
-\tikz@tempbox=\box60
-\tikz@tempbox@bg=\box61
-\tikztreelevel=\count430
-\tikznumberofchildren=\count431
-\tikznumberofcurrentchild=\count432
-\tikz@fig@count=\count433
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count431
+\tikznumberofchildren=\count432
+\tikznumberofcurrentchild=\count433
+\tikz@fig@count=\count434
  (/app/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count434
-\pgfmatrixcurrentcolumn=\count435
-\pgf@matrix@numberofcolumns=\count436
+\pgfmatrixcurrentrow=\count435
+\pgfmatrixcurrentcolumn=\count436
+\pgf@matrix@numberofcolumns=\count437
 )
-\tikz@expandcount=\count437
+\tikz@expandcount=\count438
 
 (/app/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibra
 rytopaths.code.tex
@@ -917,15 +934,15 @@ Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
 (/app/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count438
-\calc@Bcount=\count439
+\calc@Acount=\count439
+\calc@Bcount=\count440
 \calc@Adimen=\dimen287
 \calc@Bdimen=\dimen288
 \calc@Askip=\skip84
 \calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count440
+\calc@Ccount=\count441
 \calc@Cskip=\skip86
 )
 (/app/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -940,13 +957,13 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 (/app/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count441
-\AM@pagebox=\box62
+\pdfpages@includegraphics@status=\count442
+\AM@pagebox=\box63
 \AM@global@opts=\toks44
-\AM@pagecnt=\count442
+\AM@pagecnt=\count443
 \AM@toc@title=\toks45
-\c@AM@survey=\count443
-\AM@templatesizebox=\box63
+\c@AM@survey=\count444
+\AM@templatesizebox=\box64
 )
 (/app/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
@@ -958,7 +975,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count444
+\g_MT_multlinerow_int=\count445
 \l_MT_multwidth_dim=\dimen294
 \origjot=\skip87
 \l_MT_shortvdotswithinadjustabove_dim=\dimen295
@@ -967,69 +984,143 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen298
 \l_MT_above_shortintertext_sep=\dimen299
 \l_MT_below_shortintertext_sep=\dimen300
-\xmathstrut@box=\box64
+\xmathstrut@box=\box65
 \xmathstrut@dim=\dimen301
+)
+(/app/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/app/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip88
+\afterepigraphskip=\skip89
+\epigraphwidth=\skip90
+\epigraphrule=\skip91
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count445
-\@quotereset=\count446
-LaTeX Font Info:    Trying to load font information for T1+txr on input line 12
-4.
+\@quotelevel=\count446
+\@quotereset=\count447
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 17
+6.
 (/app/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
-)
-(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count447
-\l__pdf_internal_box=\box65
-)
-(./Experiments.aux
+) (./Experiments.aux
 
 LaTeX Warning: Label `proposed' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
 
 )
 \openout1 = `Experiments.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 124.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 176.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-124.
+176.
  (/app/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 176.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-124.
+176.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 176.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-124.
+176.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 176.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-24.
+76.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    ... okay on input line 176.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1115,19 +1206,12 @@ Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
 Package biblatex Info: Document encoding is UTF8 ....
-
-(/app/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
-)
 Package biblatex Info: ... and expl3
 (biblatex)             2021-02-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
 (/app/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(/app/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: blx-case-expl3 2020/12/06 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `Experiments-blx.bib'.
@@ -1158,6 +1242,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'im19':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'li19':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1183,7 +1272,17 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'segall12':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'sutton19':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'tibshirani11':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -1192,8 +1291,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 124.
-Package biblatex Info: Reference segment=0 on input line 124.
+Package biblatex Info: Reference section=0 on input line 176.
+Package biblatex Info: Reference segment=0 on input line 176.
  (/app/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
@@ -1205,34 +1304,34 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <Images/TITLE/cvut.pdf, id=4, 1128.215pt x 931.48pt>
 File: Images/TITLE/cvut.pdf Graphic file (type pdf)
 <use Images/TITLE/cvut.pdf>
-Package pdftex.def Info: Images/TITLE/cvut.pdf  used on input line 135.
+Package pdftex.def Info: Images/TITLE/cvut.pdf  used on input line 187.
 (pdftex.def)             Requested size: 85.35272pt x 70.46915pt.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-37.
+89.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-37.
+89.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-37.
+89.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-37.
+89.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-37.
+89.
 
 (/app/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1240,12 +1339,12 @@ File: utxsyc.fd 2000/12/15 v3.1
 <Images/TITLE/fjfi.pdf, id=5, 1239.63126pt x 1083.04625pt>
 File: Images/TITLE/fjfi.pdf Graphic file (type pdf)
 <use Images/TITLE/fjfi.pdf>
-Package pdftex.def Info: Images/TITLE/fjfi.pdf  used on input line 146.
+Package pdftex.def Info: Images/TITLE/fjfi.pdf  used on input line 198.
 (pdftex.def)             Requested size: 85.34549pt x 74.565pt.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 153.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 205.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <20.74> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 153.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 205.
  [1
 
 {/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Images/TITLE/cv
@@ -1253,51 +1352,51 @@ ut.pdf> <./Images/TITLE/fjfi.pdf>]
 <doc.pdf, id=21, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf>
-Package pdftex.def Info: doc.pdf  used on input line 191.
+Package pdftex.def Info: doc.pdf  used on input line 243.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf>
-Package pdftex.def Info: doc.pdf  used on input line 191.
+Package pdftex.def Info: doc.pdf  used on input line 243.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 <doc.pdf, id=24, page=1, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+Package pdftex.def Info: doc.pdf , page1 used on input line 243.
 (pdftex.def)             Requested size: 455.24411pt x 643.84138pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+Package pdftex.def Info: doc.pdf , page1 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
  [2]
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+Package pdftex.def Info: doc.pdf , page1 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+Package pdftex.def Info: doc.pdf , page1 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 1>
-Package pdftex.def Info: doc.pdf , page1 used on input line 191.
+Package pdftex.def Info: doc.pdf , page1 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
  [3 <./doc.pdf>]
 <doc.pdf, id=46, page=2, 597.51233pt x 845.0471pt>
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 191.
+Package pdftex.def Info: doc.pdf , page2 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 191.
+Package pdftex.def Info: doc.pdf , page2 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
 File: doc.pdf Graphic file (type pdf)
 <use doc.pdf, page 2>
-Package pdftex.def Info: doc.pdf , page2 used on input line 191.
+Package pdftex.def Info: doc.pdf , page2 used on input line 243.
 (pdftex.def)             Requested size: 784.65239pt x 1109.71475pt.
  [4 <./doc.pdf>] [5] [6] [7]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 327.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 357.
  (./Experiments.toc
 [8
 
@@ -1313,100 +1412,107 @@ Chapter 1.
 
 ]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 415.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 449.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 421.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 455.
  [12] [13] [14] [15]
 
-LaTeX Warning: Command \textasciicaron invalid in math mode on input line 649.
+LaTeX Warning: Command \textasciicaron invalid in math mode on input line 683.
 
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-49.
+83.
 (/app/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 
-LaTeX Warning: Command \textasciicaron invalid in math mode on input line 649.
+LaTeX Warning: Command \textasciicaron invalid in math mode on input line 683.
 
 Missing character: There is no Å in font txr!
 [16] [17] [18] [19] [20]
-Overfull \hbox (10.79607pt too wide) detected at line 895
-\OML/cmm/b/it/10.95 x\OML/txmi/m/it/10.95 ; \OML/cmm/b/it/10.95 z \OMS/txsy/m/n
-/10.95 2 \U/txsyb/m/n/10.95 R[] \OML/txmi/m/it/10.95 such that supp\OT1/txr/m/n
-/10.95 (\OML/cmm/b/it/10.95 x\OT1/txr/m/n/10.95 ) [] \OML/txmi/m/it/10.95 supp\
-OT1/txr/m/n/10.95 (\OML/cmm/b/it/10.95 z\OT1/txr/m/n/10.95 ) = \U/txsyb/m/n/10.
-95 ? \OML/txmi/m/it/10.95 and \OML/cmm/b/it/10.95 A \OML/txmi/m/it/10.95 has NS
-P of order \OT1/txr/m/n/10.95 2\OML/txmi/m/it/10.95 k  \OMS/txsy/m/n/10.95 ) jh
-\OML/cmm/b/it/10.95 Ax\OML/txmi/m/it/10.95 ; \OML/cmm/b/it/10.95 Az\OMS/txsy/m/
-n/10.95 ij ^^T \OML/txmi/m/it/10.95 ^^N[]\OMS/txsy/m/n/10.95 k\OML/cmm/b/it/10.
-95 x\OMS/txsy/m/n/10.95 k[]k\OML/cmm/b/it/10.95 z\OMS/txsy/m/n/10.95 k[]\OML/tx
-mi/m/it/10.95 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 907--913
+Underfull \hbox (badness 10000) in paragraph at lines 923--929
 
  []
 
-[21] [22] [23] [24] [25] [26] [27]
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--952
+
+ []
+
+[21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1128
+
+ []
+
+[24]
+(/app/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibra
+rypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) [25] [26] [27] [28] [29]
 Chapter 2.
-[28
+
+LaTeX Warning: Command \r invalid in math mode on input line 1287.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 1287.
+
+[30
 
 ]
-<string_label_crop.png, id=144, 901.3675pt x 974.64125pt>
+<string_label_crop.png, id=149, 901.3675pt x 974.64125pt>
 File: string_label_crop.png Graphic file (type png)
 <use string_label_crop.png>
-Package pdftex.def Info: string_label_crop.png  used on input line 1183.
+Package pdftex.def Info: string_label_crop.png  used on input line 1308.
 (pdftex.def)             Requested size: 315.48334pt x 341.12955pt.
- [29 <./string_label_crop.png (PNG copy)>] [30] [31]
-Overfull \hbox (1.05751pt too wide) in paragraph at lines 1258--1259
+ [31] [32 <./string_label_crop.png (PNG copy)>] [33] [34]
+Overfull \hbox (1.05751pt too wide) in paragraph at lines 1387--1388
 []\T1/txr/m/n/10.95 Among other de-scrip-tors re-viewed be-long the many-body t
 en-sor rep-re-sen-ta-tion (MBTR) which works
  []
 
-[32] [33] [34]
-<train_id_20_final_Ga4_hotovo.png, id=164, 1923.185pt x 980.66376pt>
+[35] [36] [37]
+<train_id_20_final_Ga4_hotovo.png, id=173, 1923.185pt x 980.66376pt>
 File: train_id_20_final_Ga4_hotovo.png Graphic file (type png)
 <use train_id_20_final_Ga4_hotovo.png>
 Package pdftex.def Info: train_id_20_final_Ga4_hotovo.png  used on input line 1
-359.
+493.
 (pdftex.def)             Requested size: 442.32326pt x 225.54791pt.
 
-Overfull \hbox (30.81177pt too wide) in paragraph at lines 1356--1361
+Overfull \hbox (30.81177pt too wide) in paragraph at lines 1490--1495
 []\T1/txr/m/n/10.95 The pro-ce-dure of ngram and ex-tended ngram con-struc-tion
  out-lined above is ap-plied to $\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 Al[]G
 a[]In[]\OT1/txr/m/n/10.95 )[]\OML/txmi/m/it/10.95 O[]$
  []
 
-[35 <./train_id_20_final_Ga4_hotovo.png (PNG copy)>]
+[38 <./train_id_20_final_Ga4_hotovo.png (PNG copy)>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 1509.
+
+[39]
 Chapter 3.
-<rocksalt_nolabels.pdf, id=168, 578.16pt x 794.97pt>
+<rocksalt_nolabels.pdf, id=180, 578.16pt x 794.97pt>
 File: rocksalt_nolabels.pdf Graphic file (type pdf)
 <use rocksalt_nolabels.pdf>
-Package pdftex.def Info: rocksalt_nolabels.pdf  used on input line 1377.
+Package pdftex.def Info: rocksalt_nolabels.pdf  used on input line 1536.
 (pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
-<wurtzite_nolabels.pdf, id=169, 578.16pt x 794.97pt>
+<wurtzite_nolabels.pdf, id=181, 578.16pt x 794.97pt>
 File: wurtzite_nolabels.pdf Graphic file (type pdf)
 <use wurtzite_nolabels.pdf>
-Package pdftex.def Info: wurtzite_nolabels.pdf  used on input line 1380.
+Package pdftex.def Info: wurtzite_nolabels.pdf  used on input line 1539.
 (pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
-<zincblende_nolabels.pdf, id=170, 578.16pt x 794.97pt>
+<zincblende_nolabels.pdf, id=182, 578.16pt x 794.97pt>
 File: zincblende_nolabels.pdf Graphic file (type pdf)
 <use zincblende_nolabels.pdf>
-Package pdftex.def Info: zincblende_nolabels.pdf  used on input line 1383.
+Package pdftex.def Info: zincblende_nolabels.pdf  used on input line 1542.
 (pdftex.def)             Requested size: 150.31805pt x 206.68732pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 1391.
-
-[36
+[40
 
  <./rocksalt_nolabels.pdf> <./wurtzite_nolabels.pdf> <./zincblende_nolabels.pdf
->] [37]
+>] [41]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38]
-Overfull \hbox (30.3384pt too wide) in paragraph at lines 1558--1560
+[42]
+Overfull \hbox (30.3384pt too wide) in paragraph at lines 1719--1721
 \T1/txr/m/n/10.95 where $\OML/txmi/m/it/10.95 dim\OT1/txr/m/n/10.95 (\OML/txmi/
 m/it/10.95 ^^U\OT1/txr/m/n/10.95 )$ \T1/txr/m/n/10.95 means the num-ber of $\OM
 L/txmi/m/it/10.95 ^^U$ \T1/txr/m/n/10.95 val-ues eval-u-ated dur-ing the LASSO+
@@ -1416,126 +1522,385 @@ $\OML/txmi/m/it/10.95 `[]$ \T1/txr/m/n/10.95 pro-ce-dure, $\OML/txmi/m/it/10.95
 m/n/10.95 ij$
  []
 
-[39]
-<lasso.pdf, id=191, 402.95316pt x 290.98099pt>
+[43]
+<lasso.pdf, id=203, 402.95316pt x 290.98099pt>
 File: lasso.pdf Graphic file (type pdf)
 <use lasso.pdf>
-Package pdftex.def Info: lasso.pdf  used on input line 1608.
+Package pdftex.def Info: lasso.pdf  used on input line 1770.
 (pdftex.def)             Requested size: 402.95216pt x 290.98027pt.
- [40] [41 <./lasso.pdf>] [42]
-Overfull \hbox (1.01094pt too wide) in paragraph at lines 1681--1745
+ [44] [45 <./lasso.pdf>] [46]
+Overfull \hbox (15.19493pt too wide) in paragraph at lines 1846--1910
  [][] 
  []
 
-[43] [44]
-Overfull \hbox (18.16127pt too wide) in paragraph at lines 1757--1777
+[47] [48]
+Overfull \hbox (18.16127pt too wide) in paragraph at lines 1922--1942
  [][] 
  []
 
-[45] [46]
+[49] [50]
 Chapter 4.
 
-Overfull \hbox (27.14687pt too wide) in paragraph at lines 1853--1854
+Overfull \hbox (27.14687pt too wide) in paragraph at lines 2022--2023
 [][] 
  []
 
-[47
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51
 
 ]
-<train_id_20_vegard_hotovo.png, id=267, 1923.185pt x 979.66pt>
+<train_id_20_vegard_hotovo.png, id=279, 1923.185pt x 979.66pt>
 File: train_id_20_vegard_hotovo.png Graphic file (type png)
 <use train_id_20_vegard_hotovo.png>
-Package pdftex.def Info: train_id_20_vegard_hotovo.png  used on input line 1860
+Package pdftex.def Info: train_id_20_vegard_hotovo.png  used on input line 2030
 .
 (pdftex.def)             Requested size: 480.79507pt x 244.9144pt.
-<train_id_20_final_hotovo.png, id=268, 1923.185pt x 979.66pt>
+<train_id_20_final_hotovo.png, id=280, 1923.185pt x 979.66pt>
 File: train_id_20_final_hotovo.png Graphic file (type png)
 <use train_id_20_final_hotovo.png>
-Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 1863.
+Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 2033.
 
 (pdftex.def)             Requested size: 480.79507pt x 244.9144pt.
 
-Overfull \hbox (25.55096pt too wide) in paragraph at lines 1860--1866
+Overfull \hbox (25.55096pt too wide) in paragraph at lines 2030--2036
 [][]
  []
 
 
-Overfull \hbox (25.55096pt too wide) in paragraph at lines 1860--1866
+Overfull \hbox (25.55096pt too wide) in paragraph at lines 2030--2036
 [] 
  []
 
-<rsn.pdf, id=269, 600.72244pt x 169.22095pt>
+[52]
+<rsn.pdf, id=284, 600.72244pt x 169.22095pt>
 File: rsn.pdf Graphic file (type pdf)
 <use rsn.pdf>
-Package pdftex.def Info: rsn.pdf  used on input line 1871.
+Package pdftex.def Info: rsn.pdf  used on input line 2041.
 (pdftex.def)             Requested size: 480.57861pt x 135.37692pt.
 
-Overfull \hbox (25.3345pt too wide) in paragraph at lines 1871--1872
+Overfull \hbox (25.3345pt too wide) in paragraph at lines 2041--2042
 [][] 
  []
 
-[48 <./train_id_20_vegard_hotovo.png (PNG copy)> <./train_id_20_final_hotovo.pn
-g (PNG copy)>] [49 <./rsn.pdf>]
-<vegard_nonzero_unigram_competition.pdf, id=311, 600.04805pt x 166.64885pt>
+[53 <./train_id_20_vegard_hotovo.png (PNG copy)> <./train_id_20_final_hotovo.pn
+g (PNG copy)>] [54 <./rsn.pdf>]
+<vegard_nonzero_unigram_competition.pdf, id=325, 600.04805pt x 166.64885pt>
 File: vegard_nonzero_unigram_competition.pdf Graphic file (type pdf)
 <use vegard_nonzero_unigram_competition.pdf>
 Package pdftex.def Info: vegard_nonzero_unigram_competition.pdf  used on input 
-line 1901.
+line 2072.
 (pdftex.def)             Requested size: 480.0391pt x 133.31924pt.
-<final_nonzero_unigram_competition.pdf, id=312, 600.04805pt x 166.64885pt>
+<final_nonzero_unigram_competition.pdf, id=326, 600.04805pt x 166.64885pt>
 File: final_nonzero_unigram_competition.pdf Graphic file (type pdf)
 <use final_nonzero_unigram_competition.pdf>
 Package pdftex.def Info: final_nonzero_unigram_competition.pdf  used on input l
-ine 1902.
+ine 2073.
 (pdftex.def)             Requested size: 480.0391pt x 133.31924pt.
 
-Overfull \hbox (24.79498pt too wide) in paragraph at lines 1901--1903
+Overfull \hbox (24.79498pt too wide) in paragraph at lines 2072--2074
  [][] 
  []
 
 
-Overfull \hbox (24.79498pt too wide) in paragraph at lines 1901--1903
+Overfull \hbox (24.79498pt too wide) in paragraph at lines 2072--2074
  [] 
  []
 
-[50]
+[55]
 
-LaTeX Warning: Command \r invalid in math mode on input line 1911.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 1912.
+LaTeX Warning: Command \r invalid in math mode on input line 2083.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 1913.
+LaTeX Warning: Command \r invalid in math mode on input line 2084.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 1914.
+LaTeX Warning: Command \r invalid in math mode on input line 2085.
 
-[51 <./vegard_nonzero_unigram_competition.pdf> <./final_nonzero_unigram_competi
+
+LaTeX Warning: Command \r invalid in math mode on input line 2086.
+
+[56 <./vegard_nonzero_unigram_competition.pdf> <./final_nonzero_unigram_competi
 tion.pdf
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./final_nonzero_un
 igram_competition.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [52] [53
+>] [57]
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2119--2131
+ [][] 
+ []
+
+[58]
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2138--2150
+ [][] 
+ []
+
+
+Overfull \hbox (29.96375pt too wide) in paragraph at lines 2157--2169
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2175--2187
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2194--2206
+ [][] 
+ []
+
+
+Overfull \hbox (32.1878pt too wide) in paragraph at lines 2213--2225
+ [][] 
+ []
+
+[59]
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2232--2244
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2251--2263
+ [][] 
+ []
+
+
+Overfull \hbox (28.85172pt too wide) in paragraph at lines 2270--2282
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2289--2301
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2308--2320
+ [][] 
+ []
+
+[60]
+Overfull \hbox (28.85172pt too wide) in paragraph at lines 2327--2339
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2349--2361
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2368--2380
+ [][] 
+ []
+
+
+Overfull \hbox (28.85172pt too wide) in paragraph at lines 2387--2399
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2406--2418
+ [][] 
+ []
+
+[61]
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2426--2438
+ [][] 
+ []
+
+
+Overfull \hbox (31.07578pt too wide) in paragraph at lines 2446--2458
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2466--2478
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2486--2498
+ [][] 
+ []
+
+
+Overfull \hbox (28.85172pt too wide) in paragraph at lines 2505--2517
+ [][] 
+ []
+
+[62]
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2524--2536
+ [][] 
+ []
+
+
+Overfull \hbox (35.30002pt too wide) in paragraph at lines 2544--2556
+ [][] 
+ []
+
+
+Overfull \hbox (28.85172pt too wide) in paragraph at lines 2564--2576
+ [][] 
+ []
+
+[63]
+<unigram_MAE_form.pdf, id=437, 433.62pt x 289.08pt>
+File: unigram_MAE_form.pdf Graphic file (type pdf)
+<use unigram_MAE_form.pdf>
+Package pdftex.def Info: unigram_MAE_form.pdf  used on input line 2585.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<unigram_RMSE_form.pdf, id=438, 433.62pt x 289.08pt>
+File: unigram_RMSE_form.pdf Graphic file (type pdf)
+<use unigram_RMSE_form.pdf>
+Package pdftex.def Info: unigram_RMSE_form.pdf  used on input line 2591.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<unigram_RMSLE_form.pdf, id=439, 433.62pt x 289.08pt>
+File: unigram_RMSLE_form.pdf Graphic file (type pdf)
+<use unigram_RMSLE_form.pdf>
+Package pdftex.def Info: unigram_RMSLE_form.pdf  used on input line 2597.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<unigram_MAE_gap.pdf, id=440, 433.62pt x 289.08pt>
+File: unigram_MAE_gap.pdf Graphic file (type pdf)
+<use unigram_MAE_gap.pdf>
+Package pdftex.def Info: unigram_MAE_gap.pdf  used on input line 2603.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [64 <./unigram_MAE_form.pdf> <./unigram_RMSE_form.pdf>]
+<unigram_RMSE_gap.pdf, id=545, 433.62pt x 289.08pt>
+File: unigram_RMSE_gap.pdf Graphic file (type pdf)
+<use unigram_RMSE_gap.pdf>
+Package pdftex.def Info: unigram_RMSE_gap.pdf  used on input line 2609.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<unigram_RMSLE_gap.pdf, id=546, 433.62pt x 289.08pt>
+File: unigram_RMSLE_gap.pdf Graphic file (type pdf)
+<use unigram_RMSLE_gap.pdf>
+Package pdftex.def Info: unigram_RMSLE_gap.pdf  used on input line 2615.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<bigram_MAE_form.pdf, id=547, 433.62pt x 289.08pt>
+File: bigram_MAE_form.pdf Graphic file (type pdf)
+<use bigram_MAE_form.pdf>
+Package pdftex.def Info: bigram_MAE_form.pdf  used on input line 2622.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [65 <./unigram_RMSLE_form.pdf> <./unigram_MAE_gap.pdf> <./unigram_RMSE_gap.pdf
+>]
+<bigram_RMSE_form.pdf, id=701, 433.62pt x 289.08pt>
+File: bigram_RMSE_form.pdf Graphic file (type pdf)
+<use bigram_RMSE_form.pdf>
+Package pdftex.def Info: bigram_RMSE_form.pdf  used on input line 2628.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<bigram_RMSLE_form.pdf, id=702, 433.62pt x 289.08pt>
+File: bigram_RMSLE_form.pdf Graphic file (type pdf)
+<use bigram_RMSLE_form.pdf>
+Package pdftex.def Info: bigram_RMSLE_form.pdf  used on input line 2634.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<bigram_MAE_gap.pdf, id=703, 433.62pt x 289.08pt>
+File: bigram_MAE_gap.pdf Graphic file (type pdf)
+<use bigram_MAE_gap.pdf>
+Package pdftex.def Info: bigram_MAE_gap.pdf  used on input line 2640.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [66 <./unigram_RMSLE_gap.pdf> <./bigram_MAE_form.pdf> <./bigram_RMSE_form.pdf>
+]
+<bigram_RMSE_gap.pdf, id=858, 433.62pt x 289.08pt>
+File: bigram_RMSE_gap.pdf Graphic file (type pdf)
+<use bigram_RMSE_gap.pdf>
+Package pdftex.def Info: bigram_RMSE_gap.pdf  used on input line 2646.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<bigram_RMSLE_gap.pdf, id=859, 433.62pt x 289.08pt>
+File: bigram_RMSLE_gap.pdf Graphic file (type pdf)
+<use bigram_RMSLE_gap.pdf>
+Package pdftex.def Info: bigram_RMSLE_gap.pdf  used on input line 2652.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<trigram_MAE_form.pdf, id=860, 433.62pt x 289.08pt>
+File: trigram_MAE_form.pdf Graphic file (type pdf)
+<use trigram_MAE_form.pdf>
+Package pdftex.def Info: trigram_MAE_form.pdf  used on input line 2659.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [67 <./bigram_RMSLE_form.pdf> <./bigram_MAE_gap.pdf> <./bigram_RMSE_gap.pdf>]
+<trigram_RMSE_form.pdf, id=1012, 433.62pt x 289.08pt>
+File: trigram_RMSE_form.pdf Graphic file (type pdf)
+<use trigram_RMSE_form.pdf>
+Package pdftex.def Info: trigram_RMSE_form.pdf  used on input line 2665.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<trigram_RMSLE_form.pdf, id=1013, 433.62pt x 289.08pt>
+File: trigram_RMSLE_form.pdf Graphic file (type pdf)
+<use trigram_RMSLE_form.pdf>
+Package pdftex.def Info: trigram_RMSLE_form.pdf  used on input line 2671.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<trigram_MAE_gap.pdf, id=1014, 433.62pt x 289.08pt>
+File: trigram_MAE_gap.pdf Graphic file (type pdf)
+<use trigram_MAE_gap.pdf>
+Package pdftex.def Info: trigram_MAE_gap.pdf  used on input line 2677.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [68 <./bigram_RMSLE_gap.pdf> <./trigram_MAE_form.pdf> <./trigram_RMSE_form.pdf
+>]
+<trigram_RMSE_gap.pdf, id=1168, 433.62pt x 289.08pt>
+File: trigram_RMSE_gap.pdf Graphic file (type pdf)
+<use trigram_RMSE_gap.pdf>
+Package pdftex.def Info: trigram_RMSE_gap.pdf  used on input line 2683.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<trigram_RMSLE_gap.pdf, id=1169, 433.62pt x 289.08pt>
+File: trigram_RMSLE_gap.pdf Graphic file (type pdf)
+<use trigram_RMSLE_gap.pdf>
+Package pdftex.def Info: trigram_RMSLE_gap.pdf  used on input line 2689.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<quadgram_MAE_form.pdf, id=1170, 433.62pt x 289.08pt>
+File: quadgram_MAE_form.pdf Graphic file (type pdf)
+<use quadgram_MAE_form.pdf>
+Package pdftex.def Info: quadgram_MAE_form.pdf  used on input line 2696.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [69 <./trigram_RMSLE_form.pdf> <./trigram_MAE_gap.pdf> <./trigram_RMSE_gap.pdf
+>]
+<quadgram_RMSE_form.pdf, id=1323, 433.62pt x 289.08pt>
+File: quadgram_RMSE_form.pdf Graphic file (type pdf)
+<use quadgram_RMSE_form.pdf>
+Package pdftex.def Info: quadgram_RMSE_form.pdf  used on input line 2702.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<quadgram_RMSLE_form.pdf, id=1324, 433.62pt x 289.08pt>
+File: quadgram_RMSLE_form.pdf Graphic file (type pdf)
+<use quadgram_RMSLE_form.pdf>
+Package pdftex.def Info: quadgram_RMSLE_form.pdf  used on input line 2708.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<quadgram_MAE_gap.pdf, id=1325, 433.62pt x 289.08pt>
+File: quadgram_MAE_gap.pdf Graphic file (type pdf)
+<use quadgram_MAE_gap.pdf>
+Package pdftex.def Info: quadgram_MAE_gap.pdf  used on input line 2714.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+ [70 <./trigram_RMSLE_gap.pdf> <./quadgram_MAE_form.pdf> <./quadgram_RMSE_form.
+pdf>]
+<quadgram_RMSE_gap.pdf, id=1482, 433.62pt x 289.08pt>
+File: quadgram_RMSE_gap.pdf Graphic file (type pdf)
+<use quadgram_RMSE_gap.pdf>
+Package pdftex.def Info: quadgram_RMSE_gap.pdf  used on input line 2720.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<quadgram_RMSLE_gap.pdf, id=1483, 433.62pt x 289.08pt>
+File: quadgram_RMSLE_gap.pdf Graphic file (type pdf)
+<use quadgram_RMSLE_gap.pdf>
+Package pdftex.def Info: quadgram_RMSLE_gap.pdf  used on input line 2726.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+
+[71 <./quadgram_RMSLE_form.pdf> <./quadgram_MAE_gap.pdf> <./quadgram_RMSE_gap.p
+df>] [72 <./quadgram_RMSLE_gap.pdf>] [73
 
 ]
 Appendix A.
-[54
+[74
 
 ]
 Overfull \vbox (72.25797pt too high) has occurred while \output is active []
 
 
-[55]
-Overfull \hbox (1.52pt too wide) in paragraph at lines 1990--2093
+[75]
+Overfull \hbox (1.52pt too wide) in paragraph at lines 2789--2892
 []$[]$  $[]$ 
  []
 
-[56]
+[76]
 Appendix B.
 
-Overfull \hbox (35.38878pt too wide) in paragraph at lines 2096--2152
+Overfull \hbox (35.38878pt too wide) in paragraph at lines 2895--2951
 []\T1/txr/m/n/10.95 We show the con-struc-tion of the ngram step by step for be
 t-ter un-de-stand-ing on an al-loy $\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 Al
 []Ga[]In[]\OT1/txr/m/n/10.95 )[]\OML/txmi/m/it/10.95 O[]$\T1/txr/m/n/10.95 .
@@ -1543,82 +1908,68 @@ t-ter un-de-stand-ing on an al-loy $\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 Al
 
 File: train_id_20_final_hotovo.png Graphic file (type png)
 <use train_id_20_final_hotovo.png>
-Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 2170.
+Package pdftex.def Info: train_id_20_final_hotovo.png  used on input line 2969.
 
 (pdftex.def)             Requested size: 442.32326pt x 225.31706pt.
-[57
+[77
 
 ]
-Overfull \hbox (23.60332pt too wide) detected at line 2199
+Overfull \hbox (23.60332pt too wide) detected at line 2998
 \OML/cmm/b/it/6 D \OT1/txr/m/n/6 = []
  []
 
 
-Overfull \hbox (4.01425pt too wide) in paragraph at lines 2206--2211
+Overfull \hbox (4.01425pt too wide) in paragraph at lines 3005--3010
  [][] 
  []
 
-[58]
-<id_20_graph.pdf, id=423, 867.24pt x 867.24pt>
+[78]
+<id_20_graph.pdf, id=1714, 867.24pt x 867.24pt>
 File: id_20_graph.pdf Graphic file (type pdf)
 <use id_20_graph.pdf>
-Package pdftex.def Info: id_20_graph.pdf  used on input line 2219.
+Package pdftex.def Info: id_20_graph.pdf  used on input line 3018.
 (pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 2224.
+LaTeX Warning: Command \r invalid in math mode on input line 3023.
 
-[59 <./id_20_graph.pdf>]
-<unigram_id_20.pdf, id=445, 595.9703pt x 166.64885pt>
+[79 <./id_20_graph.pdf>]
+<unigram_id_20.pdf, id=1737, 595.9703pt x 166.64885pt>
 File: unigram_id_20.pdf Graphic file (type pdf)
 <use unigram_id_20.pdf>
-Package pdftex.def Info: unigram_id_20.pdf  used on input line 2228.
+Package pdftex.def Info: unigram_id_20.pdf  used on input line 3027.
 (pdftex.def)             Requested size: 506.57716pt x 141.65218pt.
 
-Overfull \hbox (51.33305pt too wide) in paragraph at lines 2228--2229
+Overfull \hbox (51.33305pt too wide) in paragraph at lines 3027--3028
  [][] 
  []
 
-[60 <./unigram_id_20.pdf>]
+[80 <./unigram_id_20.pdf>]
 Appendix C.
-[61
+[81
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
-235.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
+054.
  (/app/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-)
-Overfull \hbox (41.59004pt too wide) in paragraph at lines 2236--2236
-[]\T1/txr/m/n/10.95 Ian Good-fel-low, Yoshua Ben-gio, and Aaron Courville. \T1/
-txr/m/it/10.95 Deep Learn-ing\T1/txr/m/n/10.95 . $\T1/txtt/m/n/10.95 http : / /
- www . deeplearningbook .
- []
+) [82
 
-[62
-
-]
-Overfull \hbox (14.55704pt too wide) in paragraph at lines 2236--2236
-[]\T1/txr/m/it/10.95 Jiri Chmel research-project github repos-i-tory\T1/txr/m/n
-/10.95 . \T1/txr/m/sc/10.95 url\T1/txr/m/n/10.95 : $\T1/txtt/m/n/10.95 https : 
-/ / github . com / jirichmel / research -[]
- []
-
-
-Overfull \hbox (12.88324pt too wide) in paragraph at lines 2236--2236
+] [83]
+Overfull \hbox (12.88324pt too wide) in paragraph at lines 3055--3055
 \T1/txr/m/n/10.95 with Ma-chine Learn-ing".'' In: \T1/txr/m/it/10.95 Phys. Rev.
  Lett. \T1/txr/m/n/10.95 109 (5 2012), p. 059801. \T1/txr/m/sc/10.95 doi\T1/txr
 /m/n/10.95 : $\T1/txtt/m/n/10.95 10 . 1103 / PhysRevLett .
  []
 
-[63]
-Overfull \hbox (33.49721pt too wide) in paragraph at lines 2236--2236
+
+Overfull \hbox (33.49721pt too wide) in paragraph at lines 3055--3055
 \T1/txr/m/it/10.95 te-ri-als Sci-ence Chal-lenges Through Crowd Sourc-ing\T1/tx
 r/m/n/10.95 . 2018. arXiv: $\T1/txtt/m/n/10.95 1812 . 00085$ [cond-mat.mtrl-sci
 ]\T1/txr/m/n/10.95 . 
  []
 
-[64] (./Experiments.aux)
+[84] [85] (./Experiments.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1627,13 +1978,13 @@ Package logreq Info: Writing requests to 'Experiments.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26504 strings out of 478994
- 498088 string characters out of 5859690
- 1045037 words of memory out of 5000000
- 43418 multiletter control sequences out of 15000+600000
- 510740 words of font info for 213 fonts, out of 8000000 for 9000
+ 27242 strings out of 478994
+ 514214 string characters out of 5859690
+ 1145971 words of memory out of 5000000
+ 44100 multiletter control sequences out of 15000+600000
+ 543566 words of font info for 291 fonts, out of 8000000 for 9000
  1152 hyphenation exceptions out of 8191
- 87i,17n,89p,1852b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,17n,88p,1852b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/app/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</app/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbsy10.pfb></app/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cmextra/cmbsy8.pfb></app/texlive/texmf-dist/fonts/type1/publi
@@ -1663,10 +2014,10 @@ f-dist/fonts/type1/public/txfonts/txsyc.pfb></app/texlive/texmf-dist/fonts/type
 fb></app/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></app/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on Experiments.pdf (64 pages, 3313004 bytes).
+Output written on Experiments.pdf (85 pages, 3746668 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
+ 1888 PDF objects out of 2073 (max. 8388607)
+ 478 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

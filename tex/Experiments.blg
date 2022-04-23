@@ -17,6 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10740 items from 5000.
 Database file #1: Experiments-blx.bib
 Database file #2: zdroje.bib
 Warning--I'm ignoring rupp12's extra "url" field
@@ -94,45 +95,45 @@ Name 2 in "X. Wang, and S. Ramírez-Hinestrosa, and J. Dobnikar and D. Frenkel" 
 while executing---line 2813 of file biblatex.bst
 Name 2 in "X. Wang, and S. Ramírez-Hinestrosa, and J. Dobnikar and D. Frenkel" has a comma at the end for entry wang20
 while executing---line 2813 of file biblatex.bst
-You've used 31 entries,
+You've used 41 entries,
             6393 wiz_defined-function locations,
-            1417 strings with 15859 characters,
-and the built_in function-call counts, 269440 in all, are:
-= -- 20385
-> -- 4731
-< -- 1593
-+ -- 7617
-- -- 2103
-* -- 21158
-:= -- 30082
+            1491 strings with 18981 characters,
+and the built_in function-call counts, 405177 in all, are:
+= -- 30896
+> -- 7129
+< -- 2170
++ -- 12300
+- -- 3356
+* -- 32650
+:= -- 47493
 add.period$ -- 0
-call.type$ -- 31
-change.case$ -- 787
-chr.to.int$ -- 75
-cite$ -- 60
-duplicate$ -- 28200
-empty$ -- 22471
-format.name$ -- 2759
-if$ -- 54614
+call.type$ -- 41
+change.case$ -- 925
+chr.to.int$ -- 96
+cite$ -- 80
+duplicate$ -- 43338
+empty$ -- 32559
+format.name$ -- 4393
+if$ -- 80644
 int.to.chr$ -- 0
-int.to.str$ -- 82
+int.to.str$ -- 104
 missing$ -- 0
-newline$ -- 1431
-num.names$ -- 1611
-pop$ -- 11361
+newline$ -- 2167
+num.names$ -- 2101
+pop$ -- 15798
 preamble$ -- 1
-purify$ -- 1039
+purify$ -- 1353
 quote$ -- 0
-skip$ -- 7209
+skip$ -- 9912
 stack$ -- 0
-substring$ -- 35994
-swap$ -- 6217
-text.length$ -- 1161
-text.prefix$ -- 30
+substring$ -- 54555
+swap$ -- 8986
+text.length$ -- 1759
+text.prefix$ -- 40
 top$ -- 1
-type$ -- 1042
+type$ -- 1382
 warning$ -- 0
-while$ -- 4194
+while$ -- 6821
 width$ -- 0
-write$ -- 1401
+write$ -- 2127
 (There were 35 error messages)
